@@ -1,0 +1,65 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": true,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": false,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "file:Starting Node",
+      "color": {
+        "a": 1,
+        "rgb": 15010571
+      }
+    },
+    {
+      "query": "file:+",
+      "color": {
+        "a": 1,
+        "rgb": 5431473
+      }
+    },
+    {
+      "query": "path:AZ",
+      "color": {
+        "a": 1,
+        "rgb": 16711880
+      }
+    },
+    {
+      "query": "path:Certifications  ",
+      "color": {
+        "a": 1,
+        "rgb": 1845731
+      }
+    },
+    {
+      "query": "path:Hack",
+      "color": {
+        "a": 1,
+        "rgb": 9688841
+      }
+    },
+    {
+      "query": "path:CFS  ",
+      "color": {
+        "a": 1,
+        "rgb": 9186795
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": true,
+  "textFadeMultiplier": -3,
+  "nodeSizeMultiplier": 4.05572916666667,
+  "lineSizeMultiplier": 5,
+  "collapse-forces": false,
+  "centerStrength": 0.317708333333333,
+  "repelStrength": 20,
+  "linkStrength": 1,
+  "linkDistance": 297,
+  "scale": 0.3213363529157235,
+  "close": true
+}
