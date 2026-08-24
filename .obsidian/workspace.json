@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HackTheBox_Cert/Active_Directory/Enumeration/Windows Enumeration/Enumeration_Windows.md",
+                "file": "HackTheBox_Cert/File Based/File Inclusion/Remote Code Execution.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Enumeration_Windows"
+              "title": "Remote Code Execution"
             }
           }
         ]
@@ -41,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -53,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "smbc",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 315.5
+    "width": 200
   },
   "right": {
     "id": "303ed03d3c17beb4",
@@ -177,7 +179,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -191,54 +194,54 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cbf92808037f2f5b",
+  "active": "01ac5584f98d2437",
   "lastOpenFiles": [
-    "HackTheBox_Cert/Active_Directory/Enumeration/Windows Enumeration/Bleeding Edge Vulns.md",
-    "Research Tools.md",
-    "HackTheBox_Cert/Active_Directory/Enumeration/Windows Enumeration/PowerView Capabilities.md",
-    "HackTheBox_Cert/Active_Directory/Enumeration/Windows Enumeration/Looking at Security Controls with Powershell.md",
-    "HackTheBox_Cert/Active_Directory/Enumeration/Windows Enumeration/Kerberosing.md",
-    "HackTheBox_Cert/Active_Directory/Enumeration/Windows Enumeration/Enumeration_Windows.md",
-    "HackTheBox_Cert/Active_Directory/Enumeration/Windows Enumeration/Windows Recon.md",
-    "HackTheBox_Cert/Active_Directory/Enumeration/Windows Enumeration/Enumeration of Remote Desktop.md",
-    "HackTheBox_Labs/Walkthrough_PDF/Cap Walkthrough.pdf",
+    "Pasted image 20260822205607.png",
+    "HackTheBox_Cert/File Based/File Inclusion/Basics.md",
+    "HackTheBox_Cert/File Based/File Inclusion/Remote Code Execution.md",
     "HackTheBox_Cert/Active_Directory/Enumeration/Enumeration.md",
-    "HackTheBox_Labs/Walkthrough_PDF/Retro Walkthrough.pdf",
-    "HackTheBox_Labs/Walkthrough_PDF/Cap_Penetration_Report.md",
-    "Certifications/List of Certifications.md",
-    "HackTheBox_Labs/Machines/Linux/Cap (Completed)/Cap Walkthrough.md",
-    "HackTheBox_Cert/Active_Directory/Enumeration/Password Attacks.md",
-    "HackTheBox_Cert/Active_Directory/Enumeration/Windows Enumeration",
-    "Pasted image 20260717130346.png",
-    "Pasted image 20260717113513.png",
-    "Pasted image 20260717110333.png",
-    "Pasted image 20260717105909.png",
-    "Pasted image 20260717105843.png",
-    "Pasted image 20260717105754.png",
-    "Pasted image 20260717105705.png",
-    "Pasted image 20260717105613.png",
-    "HackTheBox_Labs/Machines/Linux/Cap (Completed)/Cap Screenshots/Pasted image 20260626132042.png",
-    "HackTheBox_Labs/Machines/Linux/Cap (Completed)/Cap Screenshots/Pasted image 20260626131752.png",
-    "HackTheBox_Cert/Active_Directory/Information/Windows_Need_to_Know.md",
-    "HackTheBox_Cert/Active_Directory/Information",
-    "HackTheBox_Cert/Active_Directory/Information/Starting Active Directory.md",
-    "Handbook/Pivotting.md",
-    "HackTheBox_Cert/Active_Directory/Enumeration",
-    "HackTheBox_Cert/Active_Directory/Setting_the_Stage",
-    "2026-05-27.md",
-    "HackTheBox_Cert/Tunneling_PortForwarding/Tunneling_PortForwarding Notes.md",
-    "HackTheBox_Cert/Active_Directory",
-    "LaunchPad 2.0.md",
-    "HackTheBox_Cert/Tunneling_PortForwarding/Pivoting Notes.md",
-    "HackTheBox_Cert/Tunneling_PortForwarding/SoCat.md",
-    "Handbook/Pivoting/Untitled.md",
-    "Handbook/Pivoting",
-    "Handbook",
-    "HackTheBox_Labs/Hack the Box Links.md",
-    "HackTheBox_Labs/Conquered Machines.md",
-    "HackTheBox_Labs/Walkthrough_PDF",
+    "HackTheBox_Cert/File Based/File Inclusion",
+    "HackTheBox_Cert/File Based",
+    "HackTheBox_Cert/Cross-Site_Scripting/Assessment.md",
+    "Screenshots/Pasted image 20260813095544.png",
+    "Screenshots/Pasted image 20260816210918.png",
+    "Screenshots",
+    "HackTheBox_Cert/SQL Injection/Untitled",
+    "Screenshots/Pasted image 20260813101246.png",
     "HackTheBox_Labs/Machines/Windows/Retro (Completed)/Retro Walkthrough.md",
-    "Certifications/CompTIA/Sec+ Notes.md",
+    "HackTheBox_Cert/Cross-Site_Scripting/Tools for XXS.md",
+    "HackTheBox_Cert/Cross-Site_Scripting/Types of XSS.md",
+    "HackTheBox_Cert/Cross-Site_Scripting/Introduction into XXS.md",
+    "HackTheBox_Cert/Cross-Site_Scripting",
+    "HackTheBox_Cert/Active_Directory/Enumeration/Windows Enumeration/Enumeration_Windows.md",
+    "HackTheBox_Cert/Active_Directory/Enumeration/Windows Enumeration/Enumeration of Remote Desktop.md",
+    "HackTheBox_Cert/Active_Directory/Information/Windows_Need_to_Know.md",
+    "HackTheBox_Cert/Active_Directory/Information/Starting Active Directory.md",
+    "HackTheBox_Cert/SQL Injection/SQLMap/SQLMap Notes.md",
+    "HackTheBox_Cert/SQL Injection/MySQL/Assessment.md",
+    "HackTheBox_Cert/SQL Injection/SQLMap",
+    "HackTheBox_Cert/SQL Injection/MySQL/Writing to Files.md",
+    "HackTheBox_Cert/SQL Injection/The Basics.md",
+    "HackTheBox_Cert/SQL Injection/MySQL/Reading Files.md",
+    "Screenshots/Pasted image 20260813100520.png",
+    "HackTheBox_Cert/SQL Injection/MySQL/Commands.md",
+    "HackTheBox_Cert/Active_Directory/Domain Trusts/Attacking Domain Trusts (Linux).md",
+    "HackTheBox_Cert/Active_Directory/Domain Trusts/Attacking Domains (Linux).md",
+    "HackTheBox_Cert/Active_Directory/Enumeration/Windows Enumeration/Kerberosing.md",
+    "HackTheBox_Cert/Active_Directory/Assessment.md",
+    "HackTheBox_Cert/Active_Directory/Enumeration/Windows Enumeration/Bleeding Edge Vulns.md",
+    "HackTheBox_Cert/Active_Directory/Enumeration/Windows Enumeration/Looking at Security Controls with Powershell.md",
+    "HackTheBox_Cert/Active_Directory/Enumeration/Windows Enumeration/Windows Recon.md",
+    "HackTheBox_Cert/SQL Injection/MySQL",
+    "HackTheBox_Cert/SQL Injection",
+    "HackTheBox_Cert/Passwords/Brute Force Attacks",
+    "HackTheBox_Cert/Passwords",
+    "HackTheBox_Cert/Web/Screenshots/Pasted image 20260806105816.png",
+    "HackTheBox_Cert/Active_Directory/Domain Trusts/Screenshots/Pasted image 20260803103700.png",
+    "Pasted image 20260806105656.png",
+    "Pasted image 20260806105700.png",
+    "HackTheBox_Cert/Active_Directory/Domain Trusts/Screenshots/Pasted image 20260731100230.png",
+    "HackTheBox_Cert/Active_Directory/Domain Trusts/Screenshots/Pasted image 20260731095503.png",
     "Untitled.canvas"
   ]
 }

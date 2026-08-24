@@ -1,3 +1,4 @@
+
 ## Traffic Enumeration
 ##### TcpDump
 `sudo tcpdump -i ethx`
@@ -58,7 +59,7 @@ queryuser 0x111
 #### Ldap Enumeration
 ```bash
 # Password Policy
-ldapsearch -h IP -x -b "DC=inlane,DC=local" -s sub "*" | grep -m 1 -B 10 pwdHistoryLength
+ldapsearch -x -H ldap://IP  -b "DC=inlane,DC=local" -s sub "*" | grep -m 1 -B 10 pwdHistoryLength
 
 # Looking for users
 ldapsearch -h IP -x -b "DC=inlane,DC=local" -s sub "(&(objectclassuser))" | sAMAccountName: | cut -f2 -d" "
@@ -100,4 +101,13 @@ sudo neo4j start
 
 # Then upon upload you can view the results
 # Look into sharp hound as you build these notes.
+```
+
+
+### BloodyAD
+```bash
+bloodyAD --host IP -d domain -u user -p pass get writeable
+
+# Restore
+bloodyAD --host IP -d domain -u user -p pass set restore (Copy paste from CN to the end.)
 ```
