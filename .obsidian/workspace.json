@@ -179,8 +179,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,7 +195,7 @@
   },
   "active": "01ac5584f98d2437",
   "lastOpenFiles": [
-    "Pasted image 20260822205607.png",
+    "Screenshots/Pasted image 20260822205607.png",
     "HackTheBox_Cert/File Based/File Inclusion/Basics.md",
     "HackTheBox_Cert/File Based/File Inclusion/Remote Code Execution.md",
     "HackTheBox_Cert/Active_Directory/Enumeration/Enumeration.md",
