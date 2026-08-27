@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HackTheBox_Cert/File Based/File Inclusion/Remote Code Execution.md",
+                "file": "HackTheBox_Cert/File Based/File Inclusion/Automation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Remote Code Execution"
+              "title": "Automation"
             }
           }
         ]
@@ -195,9 +195,10 @@
   },
   "active": "01ac5584f98d2437",
   "lastOpenFiles": [
+    "HackTheBox_Cert/File Based/File Inclusion/Remote Code Execution.md",
+    "HackTheBox_Cert/File Based/File Inclusion/Automation.md",
     "Screenshots/Pasted image 20260822205607.png",
     "HackTheBox_Cert/File Based/File Inclusion/Basics.md",
-    "HackTheBox_Cert/File Based/File Inclusion/Remote Code Execution.md",
     "HackTheBox_Cert/Active_Directory/Enumeration/Enumeration.md",
     "HackTheBox_Cert/File Based/File Inclusion",
     "HackTheBox_Cert/File Based",
@@ -240,7 +241,6 @@
     "Pasted image 20260806105656.png",
     "Pasted image 20260806105700.png",
     "HackTheBox_Cert/Active_Directory/Domain Trusts/Screenshots/Pasted image 20260731100230.png",
-    "HackTheBox_Cert/Active_Directory/Domain Trusts/Screenshots/Pasted image 20260731095503.png",
     "Untitled.canvas"
   ]
 }
