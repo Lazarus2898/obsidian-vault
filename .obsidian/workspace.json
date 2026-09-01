@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HackTheBox_Cert/Passwords/Brute Force Attacks/Brute-Force Methods.md",
+                "file": "HackTheBox_Cert/File Based/File Upload Attacks/File Uploads.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Brute-Force Methods"
+              "title": "File Uploads"
             }
           }
         ]
@@ -195,6 +195,10 @@
   },
   "active": "01ac5584f98d2437",
   "lastOpenFiles": [
+    "Cheatsheets/Windows Enumeration.md",
+    "HackTheBox_Cert/File Based/File Upload Attacks/File Uploads.md",
+    "HackTheBox_Cert/Passwords/Brute Force Attacks/Brute-Force Methods.md",
+    "Cheatsheets",
     "HackTheBox_Cert/Web/FuFF_Web_Busting/FUFF.md",
     "HackTheBox_Cert/Active_Directory/Domain Trusts/Attacking Domain Trusts (Linux).md",
     "HackTheBox_Cert/File Based/File Inclusion/Automation.md",
@@ -230,12 +234,8 @@
     "Screenshots/Pasted image 20260813100520.png",
     "HackTheBox_Cert/SQL Injection/MySQL/Commands.md",
     "HackTheBox_Cert/Active_Directory/Domain Trusts/Attacking Domains (Linux).md",
-    "HackTheBox_Cert/Active_Directory/Enumeration/Windows Enumeration/Kerberosing.md",
-    "HackTheBox_Cert/Active_Directory/Assessment.md",
-    "HackTheBox_Cert/Active_Directory/Enumeration/Windows Enumeration/Bleeding Edge Vulns.md",
     "HackTheBox_Cert/SQL Injection/MySQL",
     "HackTheBox_Cert/SQL Injection",
-    "HackTheBox_Cert/Passwords/Brute Force Attacks",
     "HackTheBox_Cert/Web/Screenshots/Pasted image 20260806105816.png",
     "HackTheBox_Cert/Active_Directory/Domain Trusts/Screenshots/Pasted image 20260803103700.png",
     "Pasted image 20260806105656.png",

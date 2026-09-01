@@ -1,0 +1,1 @@
+Using `burp` on the upload you can see what is supported and change the extension with the request.
