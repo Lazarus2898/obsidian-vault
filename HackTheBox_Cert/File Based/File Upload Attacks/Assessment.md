@@ -9,5 +9,8 @@ Then using
 ![[XXE-Assessment-2.png]]
 Then decoding the base64.
 Then target_dir being `./user_feedback_submissions/`
+![[Pasted image 20260902233224.png]]
 
-Now bypassing the filtering to access the possible shells.
+Now bypassing the filtering to access the possible shells. Adding the reverse shell.
+![[Webshell-Signiture.png]]
+Then going to `IP/contact/user_feedback_submission/260903_shell.phar.png?cmd=ls`
