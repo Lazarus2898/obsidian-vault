@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HackTheBox_Cert/File Based/File Upload Attacks/File Uploads.md",
+                "file": "HackTheBox_Cert/File Based/File Upload Attacks/Assessment.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "File Uploads"
+              "title": "Assessment"
             }
           }
         ]
@@ -80,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 326.5
   },
   "right": {
     "id": "303ed03d3c17beb4",
@@ -195,8 +195,17 @@
   },
   "active": "01ac5584f98d2437",
   "lastOpenFiles": [
-    "Cheatsheets/Windows Enumeration.md",
+    "HackTheBox_Cert/File Based/File Upload Attacks/Screenshots/XXE-Assessment.png",
+    "HackTheBox_Cert/File Based/File Upload Attacks/Screenshots/Whitelisting.png",
+    "HackTheBox_Cert/File Based/File Upload Attacks/Screenshots/MIME-Type.png",
+    "HackTheBox_Cert/File Based/File Upload Attacks/Screenshots/Inspecting the source code.png",
+    "HackTheBox_Cert/File Based/File Upload Attacks/Assessment.md",
+    "HackTheBox_Cert/File Based/File Upload Attacks/Screenshots/XXE-Assessment-2.png",
+    "HackTheBox_Cert/File Based/File Upload Attacks/Screenshots",
     "HackTheBox_Cert/File Based/File Upload Attacks/File Uploads.md",
+    "HackTheBox_Cert/File Based/File Upload Attacks/Screenshots/XML-TUX.png",
+    "Pasted image 20260902201717.png",
+    "Cheatsheets/Windows Enumeration.md",
     "HackTheBox_Cert/Passwords/Brute Force Attacks/Brute-Force Methods.md",
     "Cheatsheets",
     "HackTheBox_Cert/Web/FuFF_Web_Busting/FUFF.md",
@@ -215,7 +224,6 @@
     "Screenshots/Pasted image 20260816210918.png",
     "Screenshots",
     "HackTheBox_Cert/SQL Injection/Untitled",
-    "Screenshots/Pasted image 20260813101246.png",
     "HackTheBox_Labs/Machines/Windows/Retro (Completed)/Retro Walkthrough.md",
     "HackTheBox_Cert/Cross-Site_Scripting/Tools for XXS.md",
     "HackTheBox_Cert/Cross-Site_Scripting/Types of XSS.md",
@@ -231,16 +239,7 @@
     "HackTheBox_Cert/SQL Injection/MySQL/Writing to Files.md",
     "HackTheBox_Cert/SQL Injection/The Basics.md",
     "HackTheBox_Cert/SQL Injection/MySQL/Reading Files.md",
-    "Screenshots/Pasted image 20260813100520.png",
-    "HackTheBox_Cert/SQL Injection/MySQL/Commands.md",
-    "HackTheBox_Cert/Active_Directory/Domain Trusts/Attacking Domains (Linux).md",
     "HackTheBox_Cert/SQL Injection/MySQL",
-    "HackTheBox_Cert/SQL Injection",
-    "HackTheBox_Cert/Web/Screenshots/Pasted image 20260806105816.png",
-    "HackTheBox_Cert/Active_Directory/Domain Trusts/Screenshots/Pasted image 20260803103700.png",
-    "Pasted image 20260806105656.png",
-    "Pasted image 20260806105700.png",
-    "HackTheBox_Cert/Active_Directory/Domain Trusts/Screenshots/Pasted image 20260731100230.png",
     "Untitled.canvas"
   ]
 }
