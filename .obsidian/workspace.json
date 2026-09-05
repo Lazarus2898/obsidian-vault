@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HackTheBox_Cert/Command Injection/Command Injection.md",
+                "file": "HackTheBox_Cert/Command Injection/Advanced Command Injection.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Command Injection"
+              "title": "Advanced Command Injection"
             }
           }
         ]
@@ -195,8 +195,9 @@
   },
   "active": "01ac5584f98d2437",
   "lastOpenFiles": [
-    "HackTheBox_Cert/File Based/File Upload Attacks/Screenshots/Whitelisting.png",
     "HackTheBox_Cert/Command Injection/Command Injection.md",
+    "HackTheBox_Cert/Command Injection/Advanced Command Injection.md",
+    "HackTheBox_Cert/File Based/File Upload Attacks/Screenshots/Whitelisting.png",
     "HackTheBox_Cert/Command Injection/Screenshots",
     "HackTheBox_Cert/Command Injection",
     "HackTheBox_Cert/File Based/File Upload Attacks/Screenshots/Webshell-Signiture.png",

