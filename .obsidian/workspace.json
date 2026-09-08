@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HackTheBox_Cert/Command Injection/Advanced Command Injection.md",
+                "file": "HackTheBox_Cert/File Based/File Inclusion/Basics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Advanced Command Injection"
+              "title": "Basics"
             }
           }
         ]
@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "smbc",
+                "query": "fuzzing",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,7 +76,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -195,9 +196,11 @@
   },
   "active": "01ac5584f98d2437",
   "lastOpenFiles": [
-    "Cheatsheets/Windows Enumeration.md",
+    "Cheatsheets/Web Enumeration.md",
     "HackTheBox_Cert/Command Injection/Advanced Command Injection.md",
     "HackTheBox_Cert/Command Injection/Command Injection.md",
+    "Cheatsheets/Windows Enumeration.md",
+    "Certifications/List of Certifications.md",
     "HackTheBox_Cert/File Based/File Upload Attacks/Screenshots/Whitelisting.png",
     "HackTheBox_Cert/Command Injection/Screenshots",
     "HackTheBox_Cert/Command Injection",
@@ -239,8 +242,6 @@
     "HackTheBox_Cert/Active_Directory/Information/Starting Active Directory.md",
     "HackTheBox_Cert/SQL Injection/SQLMap/SQLMap Notes.md",
     "HackTheBox_Cert/SQL Injection/MySQL/Assessment.md",
-    "HackTheBox_Cert/SQL Injection/MySQL/Writing to Files.md",
-    "HackTheBox_Cert/SQL Injection/The Basics.md",
     "Untitled.canvas"
   ]
 }
