@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HackTheBox_Cert/File Based/File Inclusion/Basics.md",
+                "file": "Cheatsheets/Web Enumeration.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Basics"
+              "title": "Web Enumeration"
             }
           }
         ]
@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "fuzzing",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,8 +76,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -196,6 +195,7 @@
   },
   "active": "01ac5584f98d2437",
   "lastOpenFiles": [
+    "HackTheBox_Cert/File Based/File Inclusion/Basics.md",
     "Cheatsheets/Web Enumeration.md",
     "HackTheBox_Cert/Command Injection/Advanced Command Injection.md",
     "HackTheBox_Cert/Command Injection/Command Injection.md",
@@ -224,7 +224,6 @@
     "HackTheBox_Cert/File Based/File Upload Attacks",
     "HackTheBox_Cert/File Based/File Inclusion/Remote Code Execution.md",
     "Screenshots/Pasted image 20260822205607.png",
-    "HackTheBox_Cert/File Based/File Inclusion/Basics.md",
     "HackTheBox_Cert/Active_Directory/Enumeration/Enumeration.md",
     "HackTheBox_Cert/File Based/File Inclusion",
     "HackTheBox_Cert/File Based",
