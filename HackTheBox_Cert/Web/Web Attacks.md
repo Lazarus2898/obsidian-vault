@@ -8,5 +8,8 @@
 |`PATCH`|Apply partial modifications to the resource at the specified location|
 ### Bypassing Basic Authentication
 ```bash
+# Seeing what type of requests can be made.
 curl -i -X OPTIONS http://SERVER_IP:PORT/
+
+# Then right clicking on the request you can change the request method to something like post or head
 ```
