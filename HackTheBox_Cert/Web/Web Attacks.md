@@ -1,0 +1,12 @@
+# HTTP Verb Tampering
+|Verb|Description|
+|---|---|
+|`HEAD`|Identical to a GET request, but its response only contains the `headers`, without the response body|
+|`PUT`|Writes the request payload to the specified location|
+|`DELETE`|Deletes the resource at the specified location|
+|`OPTIONS`|Shows different options accepted by a web server, like accepted HTTP verbs|
+|`PATCH`|Apply partial modifications to the resource at the specified location|
+### Bypassing Basic Authentication
+```bash
+curl -i -X OPTIONS http://SERVER_IP:PORT/
+```
