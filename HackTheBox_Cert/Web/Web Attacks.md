@@ -98,3 +98,16 @@ done
 ```
 
 # IDOR in Insecure APIs
+Updating the employee profile was able to capture the post
+Sending it to the repeater function, changed  the request to a get request and the header the the number mentioned and bam.
+![[GET_uuid.png]]
+
+# Chaining IDOR Vulnerablities
+![[Pasted image 20260917195259.png]]
+User2 uuid: 4a9bd19b3b8676199592a346051f950c
+
+Getting another Post request and changing the information
+![[Pasted image 20260917195615.png]]
+
+Enumerating through was able to find the admin.
+![[Pasted image 20260917195844.png]]

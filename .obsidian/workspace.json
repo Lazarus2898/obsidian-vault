@@ -195,6 +195,10 @@
   },
   "active": "01ac5584f98d2437",
   "lastOpenFiles": [
+    "Pasted image 20260917195844.png",
+    "Pasted image 20260917195615.png",
+    "Pasted image 20260917195259.png",
+    "HackTheBox_Cert/Web/Screenshots/GET_uuid.png",
     "Cheatsheets/Web Enumeration.md",
     "HackTheBox_Cert/Web/Web Attacks.md",
     "HackTheBox_Cert/File Based/File Inclusion/Basics.md",
@@ -214,8 +218,6 @@
     "HackTheBox_Cert/File Based/File Upload Attacks/Screenshots/XXE-Assessment.png",
     "HackTheBox_Cert/File Based/File Upload Attacks/Screenshots",
     "HackTheBox_Cert/File Based/File Upload Attacks/File Uploads.md",
-    "HackTheBox_Cert/File Based/File Upload Attacks/Screenshots/XML-TUX.png",
-    "Pasted image 20260902201717.png",
     "HackTheBox_Cert/Passwords/Brute Force Attacks/Brute-Force Methods.md",
     "Cheatsheets",
     "HackTheBox_Cert/Web/FuFF_Web_Busting/FUFF.md",
@@ -224,7 +226,6 @@
     "HackTheBox_Cert/File Based/File Upload Attacks/The Basics.md",
     "HackTheBox_Cert/File Based/File Upload Attacks",
     "HackTheBox_Cert/File Based/File Inclusion/Remote Code Execution.md",
-    "Screenshots/Pasted image 20260822205607.png",
     "HackTheBox_Cert/Active_Directory/Enumeration/Enumeration.md",
     "HackTheBox_Cert/File Based/File Inclusion",
     "HackTheBox_Cert/File Based",
@@ -240,7 +241,6 @@
     "HackTheBox_Cert/Active_Directory/Enumeration/Windows Enumeration/Enumeration of Remote Desktop.md",
     "HackTheBox_Cert/Active_Directory/Information/Windows_Need_to_Know.md",
     "HackTheBox_Cert/Active_Directory/Information/Starting Active Directory.md",
-    "HackTheBox_Cert/SQL Injection/SQLMap/SQLMap Notes.md",
     "Untitled.canvas"
   ]
 }
