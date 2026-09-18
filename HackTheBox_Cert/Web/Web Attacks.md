@@ -102,7 +102,7 @@ Updating the employee profile was able to capture the post
 Sending it to the repeater function, changed  the request to a get request and the header the the number mentioned and bam.
 ![[GET_uuid.png]]
 
-# Chaining IDOR Vulnerablities
+# Chaining IDOR Vulnerabilities
 ![[Pasted image 20260917195259.png]]
 User2 uuid: 4a9bd19b3b8676199592a346051f950c
 
@@ -111,3 +111,10 @@ Getting another Post request and changing the information
 
 Enumerating through was able to find the admin.
 ![[Pasted image 20260917195844.png]]
+
+```bash
+{"uid":"10","uuid":"bfd92386a1b48076792e68b596846499","role":"staff_admin","full_name":"admin","email":"admin@employees.htb","about":"Never gonna give you up, Never gonna let you down"}
+```
+
+# IDOR Prevention
+See the module
