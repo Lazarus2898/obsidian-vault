@@ -193,8 +193,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "01ac5584f98d2437",
+  "active": "cbf92808037f2f5b",
   "lastOpenFiles": [
+    "HackTheBox_Cert/Web/XML/Screenshots/Blind-Data-Exfiltration.png",
     "HackTheBox_Cert/Web/XML/Local File Disclosure (Advanced).md",
     "HackTheBox_Cert/Web/XML/Blind Data Exfiltration.md",
     "HackTheBox_Cert/Web/XML/Screenshots/XML-Error.png",
@@ -240,7 +241,6 @@
     "HackTheBox_Cert/Cross-Site_Scripting/Tools for XXS.md",
     "HackTheBox_Cert/Cross-Site_Scripting/Types of XSS.md",
     "HackTheBox_Cert/Cross-Site_Scripting/Introduction into XXS.md",
-    "HackTheBox_Cert/Active_Directory/Enumeration/Windows Enumeration/Enumeration_Windows.md",
     "Untitled.canvas"
   ]
 }
