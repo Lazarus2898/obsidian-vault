@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HackTheBox_Cert/Web/Web Attacks.md",
+                "file": "HackTheBox_Cert/Web/XXE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Web Attacks"
+              "title": "XXE"
             }
           }
         ]
@@ -195,12 +195,13 @@
   },
   "active": "01ac5584f98d2437",
   "lastOpenFiles": [
-    "Pasted image 20260917195844.png",
-    "Pasted image 20260917195615.png",
-    "Pasted image 20260917195259.png",
+    "HackTheBox_Cert/Web/Web Attacks.md",
+    "HackTheBox_Cert/Web/XXE.md",
+    "HackTheBox_Cert/Web/Screenshots/Pasted image 20260917195844.png",
+    "HackTheBox_Cert/Web/Screenshots/Pasted image 20260917195615.png",
+    "HackTheBox_Cert/Web/Screenshots/Pasted image 20260917195259.png",
     "HackTheBox_Cert/Web/Screenshots/GET_uuid.png",
     "Cheatsheets/Web Enumeration.md",
-    "HackTheBox_Cert/Web/Web Attacks.md",
     "HackTheBox_Cert/File Based/File Inclusion/Basics.md",
     "HackTheBox_Cert/Command Injection/Advanced Command Injection.md",
     "HackTheBox_Cert/Command Injection/Command Injection.md",
@@ -215,7 +216,6 @@
     "HackTheBox_Cert/File Based/File Upload Attacks/Screenshots/XXE-Assessment-2.png",
     "HackTheBox_Cert/File Based/File Upload Attacks/Assessment.md",
     "HackTheBox_Cert/File Based/File Upload Attacks/Screenshots/File-Upload-Result.png",
-    "HackTheBox_Cert/File Based/File Upload Attacks/Screenshots/XXE-Assessment.png",
     "HackTheBox_Cert/File Based/File Upload Attacks/Screenshots",
     "HackTheBox_Cert/File Based/File Upload Attacks/File Uploads.md",
     "HackTheBox_Cert/Passwords/Brute Force Attacks/Brute-Force Methods.md",
