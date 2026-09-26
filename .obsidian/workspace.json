@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HackTheBox_Cert/Web/XXE.md",
+                "file": "HackTheBox_Cert/Web/XML/Local File Disclosure.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "XXE"
+              "title": "Local File Disclosure"
             }
           }
         ]
@@ -195,8 +195,10 @@
   },
   "active": "01ac5584f98d2437",
   "lastOpenFiles": [
+    "HackTheBox_Cert/Web/XML/Intro XXE-XML.md",
+    "HackTheBox_Cert/Web/XML/Local File Disclosure.md",
+    "HackTheBox_Cert/Web/XML",
     "HackTheBox_Cert/Web/Web Attacks.md",
-    "HackTheBox_Cert/Web/XXE.md",
     "HackTheBox_Cert/Web/Screenshots/Pasted image 20260917195844.png",
     "HackTheBox_Cert/Web/Screenshots/Pasted image 20260917195615.png",
     "HackTheBox_Cert/Web/Screenshots/Pasted image 20260917195259.png",
@@ -236,11 +238,9 @@
     "HackTheBox_Cert/Cross-Site_Scripting/Tools for XXS.md",
     "HackTheBox_Cert/Cross-Site_Scripting/Types of XSS.md",
     "HackTheBox_Cert/Cross-Site_Scripting/Introduction into XXS.md",
-    "HackTheBox_Cert/Cross-Site_Scripting",
     "HackTheBox_Cert/Active_Directory/Enumeration/Windows Enumeration/Enumeration_Windows.md",
     "HackTheBox_Cert/Active_Directory/Enumeration/Windows Enumeration/Enumeration of Remote Desktop.md",
     "HackTheBox_Cert/Active_Directory/Information/Windows_Need_to_Know.md",
-    "HackTheBox_Cert/Active_Directory/Information/Starting Active Directory.md",
     "Untitled.canvas"
   ]
 }
