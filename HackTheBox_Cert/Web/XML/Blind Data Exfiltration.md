@@ -73,3 +73,6 @@ if(isset($_GET['content'])){
 Hosting it
 `php -S 0.0.0.0:8000`
 Then hitting send and depending on the directory it shows what the contents are.
+
+# Prevention
+See the XXE prevention in Web Attacks
