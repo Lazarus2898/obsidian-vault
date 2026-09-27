@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HackTheBox_Cert/Web/XML/Assessment.md",
+                "file": "HackTheBox_Cert/Web/Web Application Attacks/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Assessment"
+              "title": "Untitled"
             }
           }
         ]
@@ -195,9 +195,12 @@
   },
   "active": "01ac5584f98d2437",
   "lastOpenFiles": [
+    "HackTheBox_Cert/Web/Web Attacks.md",
+    "HackTheBox_Cert/Web/Web Application Attacks/Untitled.md",
+    "HackTheBox_Cert/Web/Web Application Attacks",
+    "HackTheBox_Cert/Web/XML/Assessment.md",
     "HackTheBox_Cert/Web/XML/Screenshots/Assessment-UID.png",
     "HackTheBox_Cert/Web/XML/Blind Data Exfiltration.md",
-    "HackTheBox_Cert/Web/XML/Assessment.md",
     "HackTheBox_Cert/Web/XML/Screenshots/Blind-Data-Exfiltration.png",
     "HackTheBox_Cert/Web/XML/Local File Disclosure (Advanced).md",
     "HackTheBox_Cert/Web/XML/Screenshots/XML-Error.png",
@@ -210,10 +213,8 @@
     "HackTheBox_Cert/Web/XML/Screenshots/Post.png",
     "HackTheBox_Cert/Web/XML/Intro XXE-XML.md",
     "HackTheBox_Cert/Web/XML",
-    "HackTheBox_Cert/Web/Web Attacks.md",
     "HackTheBox_Cert/Web/Screenshots/Pasted image 20260917195844.png",
     "HackTheBox_Cert/Web/Screenshots/Pasted image 20260917195615.png",
-    "HackTheBox_Cert/Web/Screenshots/Pasted image 20260917195259.png",
     "Cheatsheets/Web Enumeration.md",
     "HackTheBox_Cert/File Based/File Inclusion/Basics.md",
     "HackTheBox_Cert/Command Injection/Advanced Command Injection.md",
@@ -237,7 +238,6 @@
     "HackTheBox_Cert/File Based/File Inclusion",
     "HackTheBox_Cert/File Based",
     "HackTheBox_Cert/Cross-Site_Scripting/Assessment.md",
-    "Screenshots",
     "HackTheBox_Labs/Machines/Windows/Retro (Completed)/Retro Walkthrough.md",
     "HackTheBox_Cert/Cross-Site_Scripting/Tools for XXS.md",
     "HackTheBox_Cert/Cross-Site_Scripting/Types of XSS.md",
