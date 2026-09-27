@@ -195,6 +195,7 @@
   },
   "active": "01ac5584f98d2437",
   "lastOpenFiles": [
+    "HackTheBox_Cert/Web/XML/Screenshots/Assessment-UID.png",
     "HackTheBox_Cert/Web/XML/Blind Data Exfiltration.md",
     "HackTheBox_Cert/Web/XML/Assessment.md",
     "HackTheBox_Cert/Web/XML/Screenshots/Blind-Data-Exfiltration.png",
@@ -240,7 +241,6 @@
     "HackTheBox_Labs/Machines/Windows/Retro (Completed)/Retro Walkthrough.md",
     "HackTheBox_Cert/Cross-Site_Scripting/Tools for XXS.md",
     "HackTheBox_Cert/Cross-Site_Scripting/Types of XSS.md",
-    "HackTheBox_Cert/Cross-Site_Scripting/Introduction into XXS.md",
     "Untitled.canvas"
   ]
 }
