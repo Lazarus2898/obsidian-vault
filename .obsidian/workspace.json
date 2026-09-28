@@ -193,8 +193,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "01ac5584f98d2437",
+  "active": "cbf92808037f2f5b",
   "lastOpenFiles": [
+    "HackTheBox_Cert/Web/Attacking Common Applications/Screenshots/Metasploit-WordPress.png",
+    "HackTheBox_Cert/Web/Attacking Common Applications/Screenshots",
+    "HackTheBox_Cert/Web/Attacking Common Applications/Screenshots/Theme-Shell-Attack.png",
     "HackTheBox_Cert/Web/Attacking Common Applications/Application Discovery & Enumeration.md",
     "HackTheBox_Cert/Web/Attacking Common Applications/WordPress.md",
     "HackTheBox_Cert/Web/Attacking Common Applications/Introduction.md",
@@ -216,7 +219,6 @@
     "HackTheBox_Cert/Web/XML/Intro XXE-XML.md",
     "HackTheBox_Cert/Web/XML",
     "HackTheBox_Cert/Web/Screenshots/Pasted image 20260917195844.png",
-    "HackTheBox_Cert/Web/Screenshots/Pasted image 20260917195615.png",
     "Cheatsheets/Web Enumeration.md",
     "HackTheBox_Cert/File Based/File Inclusion/Basics.md",
     "HackTheBox_Cert/Command Injection/Advanced Command Injection.md",
@@ -238,9 +240,7 @@
     "HackTheBox_Cert/File Based/File Inclusion/Remote Code Execution.md",
     "HackTheBox_Cert/Active_Directory/Enumeration/Enumeration.md",
     "HackTheBox_Cert/File Based/File Inclusion",
-    "HackTheBox_Cert/File Based",
     "HackTheBox_Cert/Cross-Site_Scripting/Assessment.md",
-    "HackTheBox_Labs/Machines/Windows/Retro (Completed)/Retro Walkthrough.md",
     "Untitled.canvas"
   ]
 }
