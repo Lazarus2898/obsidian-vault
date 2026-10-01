@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HackTheBox_Cert/Web/Attacking Common Applications/WordPress.md",
+                "file": "HackTheBox_Cert/Web/Attacking Common Applications/Joomla.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "WordPress"
+              "title": "Joomla"
             }
           }
         ]
@@ -193,13 +193,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cbf92808037f2f5b",
+  "active": "01ac5584f98d2437",
   "lastOpenFiles": [
+    "HackTheBox_Cert/Web/Attacking Common Applications/Application Discovery & Enumeration.md",
+    "HackTheBox_Cert/Web/Attacking Common Applications/Joomla.md",
+    "HackTheBox_Cert/Web/Attacking Common Applications/WordPress.md",
     "HackTheBox_Cert/Web/Attacking Common Applications/Screenshots/Metasploit-WordPress.png",
     "HackTheBox_Cert/Web/Attacking Common Applications/Screenshots",
     "HackTheBox_Cert/Web/Attacking Common Applications/Screenshots/Theme-Shell-Attack.png",
-    "HackTheBox_Cert/Web/Attacking Common Applications/Application Discovery & Enumeration.md",
-    "HackTheBox_Cert/Web/Attacking Common Applications/WordPress.md",
     "HackTheBox_Cert/Web/Attacking Common Applications/Introduction.md",
     "HackTheBox_Cert/Web/Web Attacks.md",
     "HackTheBox_Cert/Web/Attacking Common Applications",
@@ -218,7 +219,6 @@
     "HackTheBox_Cert/Web/XML/Screenshots/Post.png",
     "HackTheBox_Cert/Web/XML/Intro XXE-XML.md",
     "HackTheBox_Cert/Web/XML",
-    "HackTheBox_Cert/Web/Screenshots/Pasted image 20260917195844.png",
     "Cheatsheets/Web Enumeration.md",
     "HackTheBox_Cert/File Based/File Inclusion/Basics.md",
     "HackTheBox_Cert/Command Injection/Advanced Command Injection.md",
