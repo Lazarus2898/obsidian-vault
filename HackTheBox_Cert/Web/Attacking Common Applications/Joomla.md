@@ -28,5 +28,13 @@ python2 -m pip install bs4
 python2 joomlascan.py -u http://dev.inlanefreight.local
 
 # Credential discovery
+git clone https://github.com/ajnik/joomla-bruteforce.git
 sudo python3 joomla-brute.py -u http://dev.inlanefreight.local -w /usr/share/metasploit-framework/data/wordlists/http_default_pass.txt -usr admin
+```
+
+# Attacking Joomla
+During the Joomla enumeration phase and the general research hunting for company data, we may come across leaked credentials that we can use for our purposes. Using the credentials that we obtained in the examples from the last section, `admin:admin`, let's log in to the target backend at `http://dev.inlanefreight.local/administrator`. Once logged in, we can see many options available to us. For our purposes, we would like to add a snippet of PHP code to gain RCE. We can do this by customizing a template.
+
+```bash
+# Going to the TEMPLATES -> Configuration
 ```
