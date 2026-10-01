@@ -195,6 +195,7 @@
   },
   "active": "01ac5584f98d2437",
   "lastOpenFiles": [
+    "Pasted image 20260930212116.png",
     "HackTheBox_Cert/Web/Attacking Common Applications/Application Discovery & Enumeration.md",
     "HackTheBox_Cert/Web/Attacking Common Applications/WordPress.md",
     "HackTheBox_Cert/Web/Attacking Common Applications/Joomla.md",
@@ -240,7 +241,6 @@
     "HackTheBox_Cert/File Based/File Inclusion/Remote Code Execution.md",
     "HackTheBox_Cert/Active_Directory/Enumeration/Enumeration.md",
     "HackTheBox_Cert/File Based/File Inclusion",
-    "HackTheBox_Cert/Cross-Site_Scripting/Assessment.md",
     "Untitled.canvas"
   ]
 }
