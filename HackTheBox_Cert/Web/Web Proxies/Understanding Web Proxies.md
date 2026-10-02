@@ -30,7 +30,7 @@ Finally selecting the 'Trust this CA to identify Websites and email users.'
 ```bash
 # By changing the request information, you are able to modify the possible output.
 ```
-![[Pasted image 20260806105816.png]]
+![[Burp-Drapal.png]]
 ##### Automatic Request Modification
 ```Bash
 # Going to Proxy->Proxy Settings->HTTP match and replace rules
