@@ -145,3 +145,6 @@ Then execute by clicking on `/backup`
 [Ghostcat](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-1938)
 
 [POC](https://web.archive.org/web/20260130182638/https://github.com/YDHCUI/CNVD-2020-10487-Tomcat-Ajp-lfi)
+
+# Exercise 2
+Using the MSFconsole was able to get the credentials of `tomcat:root`
