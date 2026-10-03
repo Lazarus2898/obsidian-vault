@@ -11,12 +11,14 @@
             "id": "01ac5584f98d2437",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "HackTheBox_Cert/Web/Attacking Common Applications/Screenshots/Drapal.png"
+                "file": "HackTheBox_Cert/Web/Attacking Common Applications/Tomcat - Discovery &  Enumeration.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Drapal"
+              "icon": "lucide-file",
+              "title": "Tomcat - Discovery &  Enumeration"
             }
           }
         ]
@@ -191,15 +193,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cbf92808037f2f5b",
+  "active": "01ac5584f98d2437",
   "lastOpenFiles": [
+    "HackTheBox_Cert/Web/Attacking Common Applications/Screenshots/Drapal.png",
+    "HackTheBox_Cert/Web/Attacking Common Applications/Tomcat - Discovery &  Enumeration.md",
     "HackTheBox_Cert/Web/Screenshots/Pasted image 20260917195844.png",
     "HackTheBox_Cert/Web/Screenshots/Pasted image 20260917195615.png",
     "HackTheBox_Cert/Web/Screenshots/Pasted image 20260917195259.png",
     "HackTheBox_Cert/Web/Attacking Common Applications/Screenshots/Burp-Drapal.png",
     "HackTheBox_Cert/Web/Attacking Common Applications/Drupal.md",
     "HackTheBox_Cert/Web/Attacking Common Applications/Screenshots/Drupalgeddon-v3.png",
-    "HackTheBox_Cert/Web/Attacking Common Applications/Screenshots/Drapal.png",
     "HackTheBox_Cert/Web/Attacking Common Applications/Joomla.md",
     "HackTheBox_Cert/Web/Attacking Common Applications/Application Discovery & Enumeration.md",
     "HackTheBox_Cert/Web/Attacking Common Applications/WordPress.md",
@@ -214,7 +217,6 @@
     "HackTheBox_Cert/Web/XML/Blind Data Exfiltration.md",
     "HackTheBox_Cert/Web/XML/Screenshots/Blind-Data-Exfiltration.png",
     "HackTheBox_Cert/Web/XML/Local File Disclosure (Advanced).md",
-    "HackTheBox_Cert/Web/XML/Screenshots/XML-Error.png",
     "HackTheBox_Cert/Web/XML/Local File Disclosure.md",
     "HackTheBox_Cert/Web/XML/Screenshots",
     "HackTheBox_Cert/Web/XML/Intro XXE-XML.md",
@@ -237,7 +239,6 @@
     "HackTheBox_Cert/File Based/File Inclusion/Automation.md",
     "HackTheBox_Cert/File Based/File Upload Attacks/The Basics.md",
     "HackTheBox_Cert/File Based/File Upload Attacks",
-    "HackTheBox_Cert/File Based/File Inclusion/Remote Code Execution.md",
     "HackTheBox_Cert/File Based/File Inclusion",
     "Untitled.canvas"
   ]
