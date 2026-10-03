@@ -24,3 +24,9 @@ Give the notification a name and scroll down and tick the box next to `EXECUTE P
 
 Using the `Test` button will run the program then.
 `sudo crackmapexec smb 10.129.201.50 -u prtgadm1 -p Pwn3d_by_PRTG!`
+
+
+Exercise
+![[Creating_a_Notification.png]]
+Then by doing that confirm with `nxc`
+Then `evil-winrm -i 10.129.201.50 -u prtgadm1 -p 'Pwn3d_by_PRTG!'`
