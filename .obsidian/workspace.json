@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HackTheBox_Cert/Web/Attacking Common Applications/Introduction.md",
+                "file": "HackTheBox_Cert/Web/Attacking Common Applications/Splunk.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Introduction"
+              "title": "Splunk"
             }
           }
         ]
@@ -195,6 +195,8 @@
   },
   "active": "01ac5584f98d2437",
   "lastOpenFiles": [
+    "HackTheBox_Cert/Web/Attacking Common Applications/Introduction.md",
+    "HackTheBox_Cert/Web/Attacking Common Applications/Splunk.md",
     "HackTheBox_Cert/Web/Attacking Common Applications/Jenkins.md",
     "HackTheBox_Cert/Web/Attacking Common Applications/Tomcat.md",
     "HackTheBox_Cert/Web/Attacking Common Applications/Screenshots/Drapal.png",
@@ -210,7 +212,6 @@
     "HackTheBox_Cert/Web/Attacking Common Applications/Screenshots/Metasploit-WordPress.png",
     "HackTheBox_Cert/Web/Attacking Common Applications/Screenshots",
     "HackTheBox_Cert/Web/Attacking Common Applications/Screenshots/Theme-Shell-Attack.png",
-    "HackTheBox_Cert/Web/Attacking Common Applications/Introduction.md",
     "HackTheBox_Cert/Web/Web Attacks.md",
     "HackTheBox_Cert/Web/Attacking Common Applications",
     "HackTheBox_Cert/Web/XML/Assessment.md",
@@ -238,7 +239,6 @@
     "HackTheBox_Cert/Web/FuFF_Web_Busting/FUFF.md",
     "HackTheBox_Cert/Active_Directory/Domain Trusts/Attacking Domain Trusts (Linux).md",
     "HackTheBox_Cert/File Based/File Inclusion/Automation.md",
-    "HackTheBox_Cert/File Based/File Upload Attacks/The Basics.md",
     "HackTheBox_Cert/File Based/File Upload Attacks",
     "HackTheBox_Cert/File Based/File Inclusion",
     "Untitled.canvas"
