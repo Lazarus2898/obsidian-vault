@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HackTheBox_Cert/Web/Attacking Common Applications/Tomcat-CGI.md",
+                "file": "HackTheBox_Cert/Web/Attacking Common Applications/Attacking Common Gateway Interface Applications/Shellshock.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tomcat-CGI"
+              "title": "Shellshock"
             }
           }
         ]
@@ -196,6 +196,8 @@
   "active": "ff228160d12d73ee",
   "lastOpenFiles": [
     "HackTheBox_Cert/Web/Attacking Common Applications/Tomcat-CGI.md",
+    "HackTheBox_Cert/Web/Attacking Common Applications/Attacking Common Gateway Interface Applications/Shellshock.md",
+    "HackTheBox_Cert/Web/Attacking Common Applications/Attacking Common Gateway Interface Applications",
     "HackTheBox_Cert/Web/Attacking Common Applications/GitLab.md",
     "HackTheBox_Cert/Web/Attacking Common Applications/OsTicket.md",
     "HackTheBox_Cert/Web/Attacking Common Applications/PRTG Network Monitor.md",
@@ -237,10 +239,8 @@
     "HackTheBox_Cert/Command Injection",
     "HackTheBox_Cert/File Based/File Upload Attacks/Assessment.md",
     "HackTheBox_Cert/File Based/File Upload Attacks/Screenshots",
-    "HackTheBox_Cert/File Based/File Upload Attacks/File Uploads.md",
     "Cheatsheets",
     "HackTheBox_Cert/File Based/File Upload Attacks",
-    "HackTheBox_Cert/File Based/File Inclusion",
     "Untitled.canvas"
   ]
 }
