@@ -19,3 +19,7 @@ Going to things such as `groups, snippets or help`.
 If we try to register with an email that has already been taken, we will get the error `1 error prohibited this user from being saved: Email has already been taken`.
 
 # Attacking GitLab
+### Username Enumeration
+[Username_Enum](https://www.exploit-db.com/exploits/49821)
+[vulnerability](https://hackerone.com/reports/1154542)
+[exploit](https://www.exploit-db.com/exploits/49951)
