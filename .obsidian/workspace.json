@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "3bc3cf15e80c7985",
+        "id": "5fbffc4f9c5c7edf",
         "type": "tabs",
         "children": [
           {
-            "id": "ff228160d12d73ee",
+            "id": "18286c1a2bdd6919",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HackTheBox_Cert/Web/Attacking Common Applications/Thick_Client_Applications/Attacking.md",
+                "file": "HackTheBox_Cert/Web/Attacking Common Applications/IIS Tilde.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Attacking"
+              "title": "IIS Tilde"
             }
           }
         ]
@@ -193,10 +193,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ff228160d12d73ee",
+  "active": "18286c1a2bdd6919",
   "lastOpenFiles": [
-    "Handbook/Pivotting.md",
+    "HackTheBox_Cert/Web/Attacking Common Applications/Cold-Fusion.md",
+    "HackTheBox_Cert/Web/Attacking Common Applications/IIS Tilde.md",
     "HackTheBox_Cert/Web/Attacking Common Applications/Thick_Client_Applications/Attacking.md",
+    "HackTheBox_Cert/Web/Attacking Common Applications/Thick_Client_Applications/Exploiting Web Vulnerabilities in Thick-Client Applications.md",
+    "Handbook/Pivotting.md",
     "HackTheBox_Cert/File Based/File Upload Attacks/Assessment.md",
     "HackTheBox_Cert/Web/Attacking Common Applications/Thick_Client_Applications",
     "HackTheBox_Cert/File Based/File Inclusion/Remote Code Execution.md",
@@ -219,9 +222,6 @@
     "HackTheBox_Cert/Active_Directory/Domain Trusts/Attacking Domain Trusts (Linux).md",
     "Cheatsheets/Windows Enumeration.md",
     "Cheatsheets/Web Enumeration.md",
-    "Certifications/List of Certifications.md",
-    "HackTheBox_Cert/Web/Attacking Common Applications/Shellshock.md",
-    "HackTheBox_Cert/Web/Attacking Common Applications/Tomcat-CGI.md",
     "HackTheBox_Cert/Web/Attacking Common Applications/Attacking Common Gateway Interface Applications",
     "HackTheBox_Cert/Web/Attacking Common Applications/Screenshots/Creating_a_Notification.png",
     "HackTheBox_Cert/Web/Attacking Common Applications/Screenshots/PRTG Network Monitor-SS-1.png",
