@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HackTheBox_Cert/Web/Attacking Common Applications/1. Introduction.md",
+                "file": "HackTheBox_Cert/Web/Assessments/Assessment 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. Introduction"
+              "title": "Assessment 1"
             }
           }
         ]
@@ -195,10 +195,13 @@
   },
   "active": "18286c1a2bdd6919",
   "lastOpenFiles": [
+    "HackTheBox_Cert/Web/Attacking Common Applications/Tomcat.md",
+    "HackTheBox_Cert/Web/Assessments/Assessment 1.md",
+    "HackTheBox_Cert/Web/Attacking Common Applications/1. Introduction.md",
+    "HackTheBox_Cert/Web/Assessments",
     "HackTheBox_Cert/Web/Attacking Common Applications/PRTG Network Monitor.md",
     "HackTheBox_Cert/Web/Attacking Common Applications/Shellshock.md",
     "HackTheBox_Cert/Web/Attacking Common Applications/WordPress.md",
-    "HackTheBox_Cert/Web/Attacking Common Applications/1. Introduction.md",
     "HackTheBox_Cert/Web/Attacking Common Applications/LDAP.md",
     "HackTheBox_Cert/Web/Attacking Common Applications/IIS Tilde.md",
     "HackTheBox_Cert/Web/Attacking Common Applications/Cold-Fusion.md",
@@ -220,8 +223,6 @@
     "HackTheBox_Cert/Active_Directory/Enumeration/Windows Enumeration/Enumeration of Remote Desktop.md",
     "HackTheBox_Cert/Active_Directory/Enumeration/Windows Enumeration/Bleeding Edge Vulns.md",
     "HackTheBox_Cert/Active_Directory/Domain Trusts/Enumeration of Domain Trusts.md",
-    "HackTheBox_Cert/Active_Directory/Domain Trusts/Domain Trusts Explanation.md",
-    "HackTheBox_Cert/Active_Directory/Domain Trusts/Attacking Domains (Windows).md",
     "HackTheBox_Cert/Web/Attacking Common Applications/Attacking Common Gateway Interface Applications",
     "HackTheBox_Cert/Web/Attacking Common Applications/Screenshots/Creating_a_Notification.png",
     "HackTheBox_Cert/Web/Attacking Common Applications/Screenshots/PRTG Network Monitor-SS-1.png",
@@ -240,7 +241,6 @@
     "HackTheBox_Cert/Command Injection/Screenshots",
     "HackTheBox_Cert/Command Injection",
     "HackTheBox_Cert/File Based/File Upload Attacks/Screenshots",
-    "Cheatsheets",
     "Untitled.canvas"
   ]
 }
