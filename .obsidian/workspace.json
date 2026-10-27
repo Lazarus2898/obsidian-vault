@@ -193,8 +193,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cbf92808037f2f5b",
+  "active": "18286c1a2bdd6919",
   "lastOpenFiles": [
+    "HackTheBox_Cert/Web/Attacking Common Applications/PRTG Network Monitor.md",
+    "HackTheBox_Cert/Web/Attacking Common Applications/Shellshock.md",
+    "HackTheBox_Cert/Web/Attacking Common Applications/WordPress.md",
+    "HackTheBox_Cert/Web/Attacking Common Applications/1. Introduction.md",
     "HackTheBox_Cert/Web/Attacking Common Applications/LDAP.md",
     "HackTheBox_Cert/Web/Attacking Common Applications/IIS Tilde.md",
     "HackTheBox_Cert/Web/Attacking Common Applications/Cold-Fusion.md",
@@ -218,10 +222,6 @@
     "HackTheBox_Cert/Active_Directory/Domain Trusts/Enumeration of Domain Trusts.md",
     "HackTheBox_Cert/Active_Directory/Domain Trusts/Domain Trusts Explanation.md",
     "HackTheBox_Cert/Active_Directory/Domain Trusts/Attacking Domains (Windows).md",
-    "HackTheBox_Cert/Active_Directory/Domain Trusts/Attacking Domains (Linux).md",
-    "HackTheBox_Cert/Active_Directory/Domain Trusts/Attacking Domain Trusts (Windows).md",
-    "HackTheBox_Cert/Active_Directory/Domain Trusts/Attacking Domain Trusts (Linux).md",
-    "Cheatsheets/Windows Enumeration.md",
     "HackTheBox_Cert/Web/Attacking Common Applications/Attacking Common Gateway Interface Applications",
     "HackTheBox_Cert/Web/Attacking Common Applications/Screenshots/Creating_a_Notification.png",
     "HackTheBox_Cert/Web/Attacking Common Applications/Screenshots/PRTG Network Monitor-SS-1.png",
