@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HackTheBox_Cert/Web/Assessments/Assessment 1.md",
+                "file": "HackTheBox_Cert/Web/Assessments/Assessment II.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Assessment 1"
+              "title": "Assessment II"
             }
           }
         ]
@@ -195,8 +195,9 @@
   },
   "active": "18286c1a2bdd6919",
   "lastOpenFiles": [
+    "HackTheBox_Cert/Web/Assessments/Assessment I.md",
+    "HackTheBox_Cert/Web/Assessments/Assessment II.md",
     "HackTheBox_Cert/Web/Attacking Common Applications/Tomcat.md",
-    "HackTheBox_Cert/Web/Assessments/Assessment 1.md",
     "HackTheBox_Cert/Web/Attacking Common Applications/1. Introduction.md",
     "HackTheBox_Cert/Web/Assessments",
     "HackTheBox_Cert/Web/Attacking Common Applications/PRTG Network Monitor.md",
@@ -222,7 +223,6 @@
     "HackTheBox_Cert/Active_Directory/Enumeration/Windows Enumeration/Enumeration_Windows.md",
     "HackTheBox_Cert/Active_Directory/Enumeration/Windows Enumeration/Enumeration of Remote Desktop.md",
     "HackTheBox_Cert/Active_Directory/Enumeration/Windows Enumeration/Bleeding Edge Vulns.md",
-    "HackTheBox_Cert/Active_Directory/Domain Trusts/Enumeration of Domain Trusts.md",
     "HackTheBox_Cert/Web/Attacking Common Applications/Attacking Common Gateway Interface Applications",
     "HackTheBox_Cert/Web/Attacking Common Applications/Screenshots/Creating_a_Notification.png",
     "HackTheBox_Cert/Web/Attacking Common Applications/Screenshots/PRTG Network Monitor-SS-1.png",
