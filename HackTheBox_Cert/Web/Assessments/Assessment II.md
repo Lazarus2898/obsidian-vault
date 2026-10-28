@@ -7,3 +7,4 @@
 6. Obtain reverse shell access on the target and submit the contents of the flag.txt file.
 
 # Walkthrough
+Give the Vhost of `gitlab.inlanefreight.local`
