@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HackTheBox_Cert/Linux_Privilege_Escalation/1. Introduction.md",
+                "file": "HackTheBox_Cert/Linux_Privilege_Escalation/Enumeration.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. Introduction"
+              "title": "Enumeration"
             }
           }
         ]
@@ -195,8 +195,9 @@
   },
   "active": "18286c1a2bdd6919",
   "lastOpenFiles": [
-    "HackTheBox_Cert/Web/Assessments/Assessment III.md",
     "HackTheBox_Cert/Linux_Privilege_Escalation/1. Introduction.md",
+    "HackTheBox_Cert/Linux_Privilege_Escalation/Enumeration.md",
+    "HackTheBox_Cert/Web/Assessments/Assessment III.md",
     "HackTheBox_Cert/Linux_Privilege_Escalation",
     "HackTheBox_Cert/Web/Assessments/Assessment II.md",
     "HackTheBox_Cert/Web/Attacking Common Applications/Cold-Fusion.md",
@@ -223,7 +224,6 @@
     "HackTheBox_Cert/Cross-Site_Scripting/Tools for XXS.md",
     "HackTheBox_Cert/Cross-Site_Scripting/Introduction into XXS.md",
     "HackTheBox_Cert/Command Injection/Advanced Command Injection.md",
-    "HackTheBox_Cert/Command Injection/Command Injection.md",
     "HackTheBox_Cert/Web/Attacking Common Applications/Attacking Common Gateway Interface Applications",
     "HackTheBox_Cert/Web/Attacking Common Applications/Screenshots/Creating_a_Notification.png",
     "HackTheBox_Cert/Web/Attacking Common Applications/Screenshots/PRTG Network Monitor-SS-1.png",
