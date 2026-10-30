@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HackTheBox_Cert/Linux_Privilege_Escalation/4. Escaping Restricted Shells.md",
+                "file": "HackTheBox_Cert/Linux_Privilege_Escalation/4. Escaping Restricted Shells-Special Permissions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4. Escaping Restricted Shells"
+              "title": "4. Escaping Restricted Shells-Special Permissions"
             }
           }
         ]
@@ -196,7 +196,7 @@
   "active": "18286c1a2bdd6919",
   "lastOpenFiles": [
     "HackTheBox_Cert/Linux_Privilege_Escalation/3. Credential Hunting-Path Abuse-WildCard Abuse.md",
-    "HackTheBox_Cert/Linux_Privilege_Escalation/4. Escaping Restricted Shells.md",
+    "HackTheBox_Cert/Linux_Privilege_Escalation/4. Escaping Restricted Shells-Special Permissions.md",
     "HackTheBox_Cert/Linux_Privilege_Escalation/2. Enumeration.md",
     "HackTheBox_Cert/Linux_Privilege_Escalation/1. Introduction.md",
     "HackTheBox_Cert/Web/Assessments/Assessment III.md",
