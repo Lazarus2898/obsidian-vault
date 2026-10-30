@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HackTheBox_Cert/Linux_Privilege_Escalation/4. Escaping Restricted Shells-Special Permissions-Sudo Rights Abuse.md",
+                "file": "HackTheBox_Cert/Linux_Privilege_Escalation/5. Privileged Groups.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4. Escaping Restricted Shells-Special Permissions-Sudo Rights Abuse"
+              "title": "5. Privileged Groups"
             }
           }
         ]
@@ -195,8 +195,9 @@
   },
   "active": "18286c1a2bdd6919",
   "lastOpenFiles": [
-    "HackTheBox_Cert/Linux_Privilege_Escalation/2. Enumeration.md",
     "HackTheBox_Cert/Linux_Privilege_Escalation/4. Escaping Restricted Shells-Special Permissions-Sudo Rights Abuse.md",
+    "HackTheBox_Cert/Linux_Privilege_Escalation/5. Privileged Groups.md",
+    "HackTheBox_Cert/Linux_Privilege_Escalation/2. Enumeration.md",
     "HackTheBox_Cert/Linux_Privilege_Escalation/3. Credential Hunting-Path Abuse-WildCard Abuse.md",
     "HackTheBox_Cert/Linux_Privilege_Escalation/1. Introduction.md",
     "HackTheBox_Cert/Web/Assessments/Assessment III.md",
@@ -223,7 +224,6 @@
     "HackTheBox_Cert/File Based/File Inclusion/Basics.md",
     "HackTheBox_Cert/File Based/File Inclusion/Automation.md",
     "HackTheBox_Cert/Cross-Site_Scripting/Types of XSS.md",
-    "HackTheBox_Cert/Cross-Site_Scripting/Tools for XXS.md",
     "HackTheBox_Cert/Web/Attacking Common Applications/Attacking Common Gateway Interface Applications",
     "HackTheBox_Cert/Web/Attacking Common Applications/Screenshots/Creating_a_Notification.png",
     "HackTheBox_Cert/Web/Attacking Common Applications/Screenshots/PRTG Network Monitor-SS-1.png",
