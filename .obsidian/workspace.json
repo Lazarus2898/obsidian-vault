@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HackTheBox_Cert/Linux_Privilege_Escalation/7. Containers.md",
+                "file": "HackTheBox_Cert/Linux_Privilege_Escalation/7. Containers-Docker.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "7. Containers"
+              "title": "7. Containers-Docker"
             }
           }
         ]
@@ -199,7 +199,7 @@
     "HackTheBox_Cert/Linux_Privilege_Escalation/4. Escaping Restricted Shells-Special Permissions-Sudo Rights Abuse.md",
     "HackTheBox_Cert/Linux_Privilege_Escalation/5. Privileged Groups-Capabilities.md",
     "HackTheBox_Cert/Linux_Privilege_Escalation/6. Vulnerable Services-Cron Job Abuse.md",
-    "HackTheBox_Cert/Linux_Privilege_Escalation/7. Containers.md",
+    "HackTheBox_Cert/Linux_Privilege_Escalation/7. Containers-Docker.md",
     "HackTheBox_Cert/Linux_Privilege_Escalation/2. Enumeration.md",
     "HackTheBox_Cert/Linux_Privilege_Escalation/1. Introduction.md",
     "HackTheBox_Cert/Web/Assessments/Assessment III.md",
