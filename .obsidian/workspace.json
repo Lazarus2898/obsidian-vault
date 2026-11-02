@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HackTheBox_Cert/Linux_Privilege_Escalation/9. Recent 0-Days.md",
+                "file": "HackTheBox_Cert/Tunneling_PortForwarding/SoCat.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "9. Recent 0-Days"
+              "title": "SoCat"
             }
           }
         ]
@@ -195,9 +195,9 @@
   },
   "active": "18286c1a2bdd6919",
   "lastOpenFiles": [
-    "HackTheBox_Cert/Linux_Privilege_Escalation/8. Kernel Exploits-Shared Libraries.md",
     "HackTheBox_Cert/Linux_Privilege_Escalation/9. Recent 0-Days.md",
     "HackTheBox_Cert/Linux_Privilege_Escalation/8. Kernel Exploits-Shared Libraries-Python Library Hijacking.md",
+    "HackTheBox_Cert/Linux_Privilege_Escalation/8. Kernel Exploits-Shared Libraries.md",
     "HackTheBox_Cert/Linux_Privilege_Escalation/7. Containers-Docker-Logrotate.md",
     "HackTheBox_Cert/Linux_Privilege_Escalation/3. Credential Hunting-Path Abuse-WildCard Abuse.md",
     "HackTheBox_Cert/Linux_Privilege_Escalation/4. Escaping Restricted Shells-Special Permissions-Sudo Rights Abuse.md",
