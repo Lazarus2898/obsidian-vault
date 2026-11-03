@@ -1,5 +1,5 @@
 # The Basics
-`xfreerdp /v:<target ip> /u:htb-student`
+`xfreerdp /v:<target ip> /u:htb-student /p:Pass /dynamic-resolution`
 
  It is always a safe bet to upload tools to C:\Windows\Temp because the BUILTIN\Users group has write access
 
