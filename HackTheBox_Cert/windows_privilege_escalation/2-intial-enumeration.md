@@ -76,6 +76,7 @@ accesschk.exe /accepteula \\.\Pipe\lsass -v
 ```
 One can even perform attacks with said pipe tools
 [Windscribe Name Pipe Priv Escal](https://www.exploit-db.com/exploits/48021)
+
 `accesschk.exe -accepteula -w \pipe\WindscribeService -v`
 
 Additionally, can list the pipes in Powershell
