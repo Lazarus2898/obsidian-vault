@@ -1,5 +1,6 @@
 # Xfreerdp
 `xfreerdp /v:<target ip> /u:htb-student /p:Pass /dynamic-resolution`
+
 `xfreerdp /v:<target ip> /u:htb-student /p:Pass +clipboard`
 
 # Evil-Winrm
