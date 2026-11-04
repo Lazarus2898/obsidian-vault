@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "hackthebox-cert/active-directory/domain-trusts/attacking-domain-trusts-windows.md",
+                "file": "hackthebox-cert/active-directory/enumeration/windows-enumeration/Bleeding Edge Vulns.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "attacking-domain-trusts-windows"
+              "title": "Bleeding Edge Vulns"
             }
           }
         ]
@@ -193,8 +193,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "82f13d59ea4f7c9c",
+  "active": "18286c1a2bdd6919",
   "lastOpenFiles": [
+    "hackthebox-cert/active-directory/domain-trusts/enumeration-of-domain-trusts.md",
+    "hackthebox-cert/active-directory/domain-trusts/domain-trusts-explanation.md",
+    "hackthebox-cert/active-directory/domain-trusts/attacking-domains-windows.md",
+    "hackthebox-cert/active-directory/domain-trusts/attacking-domains-linux.md",
+    "hackthebox-cert/active-directory/domain-trusts/attacking-domain-trusts-windows.md",
     "hackthebox-cert/active-directory/domain-trusts/attacking-domain-trusts-linux.md",
     "conflict-files-obsidian-git.md",
     "cheatsheets/windows-enumeration.md",
@@ -218,11 +223,6 @@
     "hackthebox-cert/Linux_Privilege_Escalation/1. Introduction.md",
     "hackthebox-cert/Web/Assessments/Assessment III.md",
     "hackthebox-cert/Linux_Privilege_Escalation",
-    "hackthebox-cert/Web/Assessments/Assessment II.md",
-    "hackthebox-cert/Web/Attacking Common Applications/Cold-Fusion.md",
-    "hackthebox-cert/Web/Attacking Common Applications/GitLab.md",
-    "hackthebox-cert/Web/Assessments/Assessment I.md",
-    "hackthebox-cert/Web/Attacking Common Applications/Tomcat.md",
     "hackthebox-cert/Web/Assessments",
     "HackTheBox_Cert/Web/Attacking Common Applications/Thick_Client_Applications",
     "HackTheBox_Cert/Web/Attacking Common Applications/Attacking Common Gateway Interface Applications",
