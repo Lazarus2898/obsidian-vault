@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "hackthebox-cert/active-directory/enumeration/windows-enumeration/Bleeding Edge Vulns.md",
+                "file": "hackthebox-cert/cross-site-scripting/Tools for XXS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bleeding Edge Vulns"
+              "title": "Tools for XXS"
             }
           }
         ]
@@ -195,6 +195,21 @@
   },
   "active": "18286c1a2bdd6919",
   "lastOpenFiles": [
+    "hackthebox-cert/cross-site-scripting/introduction-into-XXS.md",
+    "hackthebox-cert/command-injection/command-injection.md",
+    "hackthebox-cert/command-injection/advanced-command-injection.md",
+    "hackthebox-cert/active-directory/assessment.md",
+    "hackthebox-cert/active-directory/information/windows-need-to-know.md",
+    "hackthebox-cert/active-directory/information/starting-active-directory.md",
+    "hackthebox-cert/active-directory/enumeration/password-attacks.md",
+    "hackthebox-cert/active-directory/enumeration/enumeration.md",
+    "hackthebox-cert/active-directory/enumeration/windows-enumeration/windows-recon.md",
+    "hackthebox-cert/active-directory/enumeration/windows-enumeration/powerView-capabilities.md",
+    "hackthebox-cert/active-directory/enumeration/windows-enumeration/looking-at-security-controls-with-powershell.md",
+    "hackthebox-cert/active-directory/enumeration/windows-enumeration/kerberosing.md",
+    "hackthebox-cert/active-directory/enumeration/windows-enumeration/enumeration-windows.md",
+    "hackthebox-cert/active-directory/enumeration/windows-enumeration/bleeding-edge-vulns.md",
+    "hackthebox-cert/active-directory/enumeration/windows-enumeration/enumeration-of-remote-desktop.md",
     "hackthebox-cert/active-directory/domain-trusts/enumeration-of-domain-trusts.md",
     "hackthebox-cert/active-directory/domain-trusts/domain-trusts-explanation.md",
     "hackthebox-cert/active-directory/domain-trusts/attacking-domains-windows.md",
@@ -207,21 +222,6 @@
     "hackthebox-cert/windows_privilege_escalation/2-intial-enumeration.md",
     "hackthebox-cert/windows_privilege_escalation/1-introduction-tooling.md",
     "hackthebox-cert/windows_privilege_escalation",
-    "cheatsheets/web-enumeration.md",
-    "hackthebox-cert/Linux_Privilege_Escalation/Assessment.md",
-    "hackthebox-cert/Linux_Privilege_Escalation/4. Escaping Restricted Shells-Special Permissions-Sudo Rights Abuse.md",
-    "hackthebox-cert/Linux_Privilege_Escalation/5. Privileged Groups-Capabilities.md",
-    "hackthebox-cert/Linux_Privilege_Escalation/6. Vulnerable Services-Cron Job Abuse.md",
-    "hackthebox-cert/Linux_Privilege_Escalation/7. Containers-Docker-Logrotate.md",
-    "hackthebox-cert/Linux_Privilege_Escalation/8. Kernel Exploits-Shared Libraries-Python Library Hijacking.md",
-    "hackthebox-cert/Linux_Privilege_Escalation/9. Recent 0-Days.md",
-    "HackTheBox_Cert/Linux_Privilege_Escalation/10.  Linux Hardening.md",
-    "hackthebox-cert/Tunneling_PortForwarding/SoCat.md",
-    "HackTheBox_Cert/Linux_Privilege_Escalation/8. Kernel Exploits-Shared Libraries.md",
-    "hackthebox-cert/Linux_Privilege_Escalation/3. Credential Hunting-Path Abuse-WildCard Abuse.md",
-    "hackthebox-cert/Linux_Privilege_Escalation/2. Enumeration.md",
-    "hackthebox-cert/Linux_Privilege_Escalation/1. Introduction.md",
-    "hackthebox-cert/Web/Assessments/Assessment III.md",
     "hackthebox-cert/Linux_Privilege_Escalation",
     "hackthebox-cert/Web/Assessments",
     "HackTheBox_Cert/Web/Attacking Common Applications/Thick_Client_Applications",
@@ -240,7 +240,7 @@
     "hackthebox-cert/Web/Attacking Common Applications",
     "hackthebox-cert/Web/XML/Screenshots",
     "hackthebox-cert/Web/XML",
-    "hackthebox-cert/Command Injection/Screenshots",
+    "hackthebox-cert/command-injection/screenshots",
     "Untitled.canvas"
   ]
 }
