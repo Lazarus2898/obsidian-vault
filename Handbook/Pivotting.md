@@ -21,4 +21,4 @@ python client.py --server-ip <IPaddressofTargetWebServer> --server-port 8080 --n
 ```
 
 # Notes
-[[Pivoting Notes]]
+[[pivoting-notes]]
