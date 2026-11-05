@@ -24,7 +24,8 @@ Get-AppLockerPolicy -Local | Test-AppLockerPolicy -path C:\Windows\System32\cmd.
 ### Commands
 ```cmd
 (What processes are running on the System)
-tasklist /svctasklist /svc /FI "PID eq <PID>"
+tasklist /svc
+tasklist /svc /FI "PID eq <PID>"
 
 
 (Common Information)
@@ -66,6 +67,7 @@ Session Manager Subsystem (smss.exe), Client Server Runtime Subsystem (csrss.exe
 `netstat -ano`
 The main thing to look for with Active Network Connections are entries listening on loopback addresses (127.0.0.1 and ::1) that are not listening on the IP Address (10.129.43.8) or broadcast (0.0.0.0, ::/0). 
 
+### Named Pipes
 [Named Pipes](https://docs.microsoft.com/en-us/windows/win32/ipc/named-pipes)
 
 ```cmd
@@ -83,3 +85,6 @@ Additionally, can list the pipes in Powershell
 ```powershell
 gci \\.\pipe\
 ```
+
+To find the right pipes for the exercise 
+`Get-CimInstance Win32_Service | Where-Object {$_.Name -eq 'MSSQL$SQLEXPRESS01'} | Format-List *`

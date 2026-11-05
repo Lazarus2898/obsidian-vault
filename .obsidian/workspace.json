@@ -196,6 +196,7 @@
   "active": "18286c1a2bdd6919",
   "lastOpenFiles": [
     "hackthebox-cert/windows_privilege_escalation/1-introduction-tooling.md",
+    "hackthebox-cert/windows_privilege_escalation/2-intial-enumeration.md",
     "hackthebox-cert/web/web-attacks.md",
     "hackthebox-cert/web/xml/local-file-disclosure-advanced.md",
     "hackthebox-cert/web/xml/local-file-disclosure.md",
@@ -220,7 +221,6 @@
     "hackthebox-cert/web/attacking-common-applications/cold-fusion.md",
     "hackthebox-cert/web/attacking-common-applications/application-discovery-&-enumeration.md",
     "hackthebox-cert/web/attacking-common-applications/1-introduction.md",
-    "hackthebox-cert/web/assessments/assessment-III.md",
     "hackthebox-cert/windows_privilege_escalation",
     "hackthebox-cert/linux-privilege-escalation",
     "hackthebox-cert/web/assessments",
