@@ -1,0 +1,17 @@
+```bash
+inlanefreight.local
+blog.inlanefreight.local
+careers.inlanefreight.local
+dev.inlanefreight.local
+flag.inlanefreight.local
+gitlab.inlanefreight.local
+ir.inlanefreight.local
+status.inlanefreight.local
+support.inlanefreight.local
+tracking.inlanefreight.local
+vpn.inlanefreight.local
+```
+
+And 
+`monitoring`
+Being another vhost
