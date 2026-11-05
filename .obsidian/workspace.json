@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "hackthebox-cert/web/fuff-web-busting/fuff.md",
+                "file": "hackthebox-cert/web/web-attacks.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "fuff"
+              "title": "web-attacks"
             }
           }
         ]
@@ -69,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "idor",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,11 +90,12 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 417.5
   },
   "right": {
     "id": "303ed03d3c17beb4",
@@ -209,15 +210,15 @@
   },
   "active": "18286c1a2bdd6919",
   "lastOpenFiles": [
-    "hackthebox-cert/enterprises/external-testing/2-service-enumeration-&-exploitation.md",
+    "hackthebox-cert/web/web-attacks.md",
     "hackthebox-cert/enterprises/external-testing/3-web-enumeration-&-exploitation.md",
-    "hackthebox-cert/enterprises/external-testing/1-external-information-gathering.md",
     "hackthebox-cert/web/fuff-web-busting/fuff.md",
+    "hackthebox-cert/enterprises/external-testing/2-service-enumeration-&-exploitation.md",
+    "hackthebox-cert/enterprises/external-testing/1-external-information-gathering.md",
     "hackthebox-cert/windows_privilege_escalation/2-intial-enumeration.md",
     "hackthebox-cert/enterprises/external-testing",
     "hackthebox-cert/enterprises",
     "hackthebox-cert/windows_privilege_escalation/1-introduction-tooling.md",
-    "hackthebox-cert/web/web-attacks.md",
     "hackthebox-cert/web/xml/local-file-disclosure-advanced.md",
     "hackthebox-cert/web/xml/local-file-disclosure.md",
     "hackthebox-cert/web/xml/intro-xxe-xml.md",
