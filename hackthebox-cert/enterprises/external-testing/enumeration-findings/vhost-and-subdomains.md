@@ -10,8 +10,5 @@ status.inlanefreight.local
 support.inlanefreight.local
 tracking.inlanefreight.local
 vpn.inlanefreight.local
+monitoring.inlanefreight.local
 ```
-
-And 
-`monitoring`
-Being another vhost
