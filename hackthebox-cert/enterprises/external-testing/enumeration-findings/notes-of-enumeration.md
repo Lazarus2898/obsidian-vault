@@ -6,8 +6,9 @@ Scanning through the screenshots here are the notes so far:
 ### Careers.Inlanefreight.local (IDOR)
 Using `burp`, going through the page I found a login/create user.
 Making my own user I was able to look at the job posting of the website.
-Setting my eyes on the `http://careers.inlanefreight.local/profile?id=4`, this told me the IDOR is here for `Question 1 of section 3`
-Changing the ID is burp, was able to tranverse the users and find the flag.
+Setting my eyes on the `http://careers.inlanefreight.local/profile?id=4`, this told me the IDOR is here for `Question 1` [[3-web-enumeration-&-exploitation]]
+
+Changing the ID is burp, was able to transverse the users and find the flag.
 ```html
 GET /profile?id=4 HTTP/1.1
 Host: careers.inlanefreight.local
