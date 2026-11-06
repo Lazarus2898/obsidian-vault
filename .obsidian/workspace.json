@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5fbffc4f9c5c7edf",
+        "id": "3d4678872957f91e",
         "type": "tabs",
         "children": [
           {
-            "id": "024bd549aba6a2be",
+            "id": "1bb2e974f743845f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -80,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 417.5
+    "width": 200
   },
   "right": {
     "id": "303ed03d3c17beb4",
@@ -193,10 +193,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "024bd549aba6a2be",
+  "active": "1bb2e974f743845f",
   "lastOpenFiles": [
-    "hackthebox-cert/enterprises/external-testing/enumeration-findings/notes-of-enumeration.md",
+    "cheatsheets/file-transfers.md",
     "hackthebox-cert/windows_privilege_escalation/3-windows-privileges-overview.md",
+    "hackthebox-cert/enterprises/external-testing/enumeration-findings/notes-of-enumeration.md",
     "hackthebox-cert/enterprises/external-testing/enumeration-findings/nmap-scan.md",
     "hackthebox-cert/enterprises/external-testing/3-web-enumeration-&-exploitation.md",
     "hackthebox-cert/web/attacking-common-applications/os-ticket.md",
@@ -223,7 +224,6 @@
     "hackthebox-cert/web/attacking-common-applications/splunk.md",
     "hackthebox-cert/web/attacking-common-applications/shellshock.md",
     "hackthebox-cert/web/attacking-common-applications/prtg-network-monitor.md",
-    "hackthebox-cert/web/attacking-common-applications/ldap.md",
     "hackthebox-cert/windows_privilege_escalation",
     "hackthebox-cert/linux-privilege-escalation",
     "hackthebox-cert/web/assessments",
