@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "hackthebox-cert/enterprises/external-testing/enumeration-findings/notes-of-enumeration.md",
+                "file": "hackthebox-cert/windows_privilege_escalation/3-windows-privileges-overview.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "notes-of-enumeration"
+              "title": "3-windows-privileges-overview"
             }
           }
         ]
@@ -195,8 +195,9 @@
   },
   "active": "024bd549aba6a2be",
   "lastOpenFiles": [
-    "hackthebox-cert/enterprises/external-testing/enumeration-findings/nmap-scan.md",
     "hackthebox-cert/enterprises/external-testing/enumeration-findings/notes-of-enumeration.md",
+    "hackthebox-cert/windows_privilege_escalation/3-windows-privileges-overview.md",
+    "hackthebox-cert/enterprises/external-testing/enumeration-findings/nmap-scan.md",
     "hackthebox-cert/enterprises/external-testing/3-web-enumeration-&-exploitation.md",
     "hackthebox-cert/web/attacking-common-applications/os-ticket.md",
     "hackthebox-cert/enterprises/external-testing/enumeration-findings/vhost-and-subdomains.md",
@@ -223,7 +224,6 @@
     "hackthebox-cert/web/attacking-common-applications/shellshock.md",
     "hackthebox-cert/web/attacking-common-applications/prtg-network-monitor.md",
     "hackthebox-cert/web/attacking-common-applications/ldap.md",
-    "hackthebox-cert/web/attacking-common-applications/joomla.md",
     "hackthebox-cert/windows_privilege_escalation",
     "hackthebox-cert/linux-privilege-escalation",
     "hackthebox-cert/web/assessments",
