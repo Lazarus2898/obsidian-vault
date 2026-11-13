@@ -216,7 +216,7 @@ type C:\Users\Administrator\Desktop\flag.txt
 
 # Server Operators
 
-Examining a serive
+Examining a service
 ```cmd
 sc qc AppReadiness
 
