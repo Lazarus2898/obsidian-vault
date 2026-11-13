@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "hackthebox-cert/web/attacking-common-applications/wordpress.md",
+                "file": "hackthebox-cert/windows_privilege_escalation/4-windows-built-in-groups.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "wordpress"
+              "title": "4-windows-built-in-groups"
             }
           }
         ],
@@ -208,8 +208,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "82f13d59ea4f7c9c",
+  "active": "1d2ffe58a1545ebc",
   "lastOpenFiles": [
+    "hackthebox-cert/windows_privilege_escalation/3-windows-privileges-overview.md",
     "hackthebox-cert/windows_privilege_escalation/4-windows-built-in-groups.md",
     "conflict-files-obsidian-git.md",
     "hackthebox-cert/enterprises/external-testing/enumeration-findings/notes-of-enumeration.md",
@@ -227,7 +228,6 @@
     "hackthebox-cert/web/attacking-common-applications/iis-tilde.md",
     "hackthebox-cert/active-directory/enumeration/enumeration.md",
     "hackthebox-cert/active-directory/enumeration/windows-enumeration/enumeration-of-remote-desktop.md",
-    "hackthebox-cert/windows_privilege_escalation/3-windows-privileges-overview.md",
     "cheatsheets/file-transfers.md",
     "hackthebox-cert/web/attacking-common-applications/os-ticket.md",
     "hackthebox-cert/web/attacking-common-applications/application-discovery-&-enumeration.md",

