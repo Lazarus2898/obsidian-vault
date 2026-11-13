@@ -117,3 +117,4 @@ sc query dns
 Set-DnsServerGlobalQueryBlockList -Enable $false -ComputerName dc01.inlanefreight.local
 Add-DnsServerResourceRecordA -Name wpad -ZoneName inlanefreight.local -ComputerName dc01.inlanefreight.local -IPv4Address 10.10.14.3
 ```
+
