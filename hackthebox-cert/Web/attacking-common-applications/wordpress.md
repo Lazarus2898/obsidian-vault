@@ -21,6 +21,7 @@ sudo wpscan -e ap -t 500 --url http://ir.inlanefreight.local
 
 # Adding -t 5 for threads
 # or enumerate ap
+sudo wpscan --url http://IP:Port --enumerate ap
 sudo wpscan --url http://blog.inlanefreight.local --enumerate --api-token dEOFB<SNIP>
 ```
 
