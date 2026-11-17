@@ -11,7 +11,3 @@ Going to the quick filters, being able to sort by the tag, `rule=` was able to s
 
 ## Question 3
 True/False: As an analyst, you detected lateral movement attempts to systems owned by another department (e.g., finance). As it belongs to another department, you will not perform escalation internally.
-
-# Section 2
-## Question 1
-Download the Wazuh exported logs file (i.e., wazuh_export.zip), and identify all events that indicate potential credential compromise. Check the event ID 4688 and verify the full path of the parent process name that executed a credential dumping tool. Answer format is C:\\Pr........
