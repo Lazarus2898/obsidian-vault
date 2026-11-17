@@ -19,3 +19,7 @@ DMARC is an email protection mechanism against phishing built on top of the alre
 | Date | Time of the Event | Hostname | Event Description | Data Source |
 | - | - | - | - | - |
 | 09/09/2021 |13:31 CET	| SQLServer01 | Hacker tool 'Mimikatz' was detected	| Antivirus Software | 
+
+# Indicator of Compromise
+Windows logons with logon type 3 (Network Logon) typically don't cache credentials on the remote systems.
+When logging in, do not cache credentials on a possibly compromised machine.
