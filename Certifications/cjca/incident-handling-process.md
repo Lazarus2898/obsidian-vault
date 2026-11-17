@@ -7,6 +7,7 @@ Having a reference like `67c202`, searching for that then going to preview can s
 
 # Credentials
 `htb-analyst:P3n#31337@LOG`
+`Administrator:HTB_@cad3my_lab_W1n10_r00t!@0`
 
 Port: `9000`
 
