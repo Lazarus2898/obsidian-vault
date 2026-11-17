@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "hackthebox-cert/windows_privilege_escalation/4-windows-built-in-groups.md",
+                "file": "hackthebox-cert/windows_privilege_escalation/5-attacking-the-os.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4-windows-built-in-groups"
+              "title": "5-attacking-the-os"
             }
           }
         ]
@@ -196,6 +196,10 @@
   "active": "1bb2e974f743845f",
   "lastOpenFiles": [
     "hackthebox-cert/windows_privilege_escalation/4-windows-built-in-groups.md",
+    "hackthebox-cert/windows_privilege_escalation/5-attacking-the-os.md",
+    "cheatsheets/windows-command-line.md",
+    "Certifications/cjca/incident-handling-process.md",
+    "Certifications/cjca",
     "hackthebox-cert/windows_privilege_escalation/3-windows-privileges-overview.md",
     "conflict-files-obsidian-git.md",
     "hackthebox-cert/enterprises/external-testing/enumeration-findings/notes-of-enumeration.md",
@@ -219,11 +223,8 @@
     "hackthebox-cert/enterprises/external-testing/1-external-information-gathering.md",
     "hackthebox-cert/enterprises/external-testing/enumeration-findings",
     "hackthebox-cert/web/fuff-web-busting/fuff.md",
-    "hackthebox-cert/enterprises/external-testing/2-service-enumeration-&-exploitation.md",
-    "hackthebox-cert/windows_privilege_escalation/2-intial-enumeration.md",
     "hackthebox-cert/enterprises/external-testing",
     "hackthebox-cert/enterprises",
-    "hackthebox-cert/windows_privilege_escalation/1-introduction-tooling.md",
     "hackthebox-cert/windows_privilege_escalation",
     "hackthebox-cert/linux-privilege-escalation",
     "hackthebox-cert/web/assessments",
@@ -240,7 +241,6 @@
     "hackthebox-cert/web/attacking-common-applications/screenshots/Metasploit-WordPress.png",
     "hackthebox-cert/web/attacking-common-applications/screenshots",
     "hackthebox-cert/web/attacking-common-applications/screenshots/Theme-Shell-Attack.png",
-    "hackthebox-cert/web/attacking-common-applications",
     "Untitled.canvas"
   ]
 }
