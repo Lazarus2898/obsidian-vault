@@ -13,3 +13,8 @@ event.code:4625 AND winlog.event_data.SubStatus:0xC0000072 AND @timestamp >= "20
 ```
 Side arrow beside the return to drop down the menu
 Form there you can find the user name.
+
+### Question 2
+Now, execute the KQL query that is mentioned in the "Wildcards and Regular Expressions" part of this section and enter the number of returned results (hits) as your answer.
+
+1. Changing the KQL statement to `event.code:4625 AND user.name: admin*`
